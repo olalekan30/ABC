@@ -1,0 +1,420 @@
+﻿/********************************\
+			Main Styles
+\********************************/
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: .8em;
+	background-color: #eaeef1;	
+	color:#333333;/* #206bc0;*/
+	z-index: 0;
+	text-align: left;
+}
+h1
+{
+	font-size: 1.6em;
+}
+h2
+{
+	font-size: 1.4em;
+}
+h3
+{
+	font-size: 1.2em;
+}
+h4
+{
+	font-size: 1em;
+	font-weight: bold;
+}
+input.Button
+{
+	border: thin solid #999999;
+	background-color: #CCE6E6;
+	color: #808080;
+	font-weight: bolder;
+}
+input:hover.Button
+{
+	cursor: pointer;
+	border: thin solid #999999;
+	background-color: #A8D5D5;
+	color: #990099;
+	font-weight: bolder;
+	text-transform: uppercase;	
+}
+a
+{
+	color: #054c8b;	
+	text-align: right;
+}
+a:visited
+{
+	color: #054c8b;	
+	text-decoration: underline;
+}
+
+/********************************\
+			Main Classes
+\********************************/
+.FloatLeft { float: left }
+.FloatRight { float: right }
+.ClearLeft { clear: left; }
+.ClearRight { clear: right; }
+.ClearBoth { clear:both; }
+.AlignCenter { text-align: center; }
+.AlignLeft { text-align:left; }
+.AlignRight { text-align: right; }
+.PadLeft { padding-left: 8px; }
+.Hidden { display: none; }
+.Bold { font-weight: bold; }
+/* Layering Styles */
+.LayerMin { z-index: 0; }
+.Layer1 { z-index: 1; }
+.Layer2 { z-index: 10; }
+.Layer3 { z-index: 20; }
+.LayerMax {z-index: 1000; }
+.PositionAbsolute { position: absolute; }
+.Smaller { font-size: .8em; }
+.Error
+{
+	color: red;
+}
+.Loading
+{
+	background-color: #F0F0F0;
+	color: #C0C0C0;
+}
+.BackButton
+{
+    margin-top:12px;
+    padding-right: 80px;
+}
+.NextButton
+{
+    margin-top:12px;
+    padding-right: 80px;
+}          
+/********************************\
+		Standard Validators
+\********************************/
+.ErrorFlag
+{
+	background-color: #B2084C;
+	font-weight:bold;
+	color: White;
+}
+.RequiredFlag
+{
+	background-color: #BFF3FC;
+}
+/********************************\
+			Master Page Styles
+\********************************/
+.page
+{
+	width:946px;
+	min-height:500px;
+	background-color:white;
+	border:0px;
+	text-align:left;
+	BACKGROUND-REPEAT: repeat-x;
+}
+.PageHeader
+{
+	background-image : url(~/images/top_header.jpg);
+	height : 181px;
+	width : 946px;
+	text-align : left;
+}
+
+.PageBanner
+{
+	width:945px;
+}
+.FooterLink
+{
+	padding-left: 24px;
+}
+.PageFooter
+{
+	background-image:url(~/images/backgrounds/footer_background.gif);
+	height: 90px;
+	width:946px;
+}  
+.pageBody
+{
+	min-height: 500px;
+	padding: 0px 8px 0px 8px;
+}
+.pageloadingDiv
+{
+    position: relative;
+	background-color: white;
+	padding: 100px 120px 100px 100px;
+	margin-top: 160px;
+	margin-left: 220px;
+	height: 220px;
+	width: 400px;
+	background-image: none;
+	text-align: center;
+	top: 211px;
+	left: 2px;
+}  
+.pageloadingHeader
+{
+	text-align:center;
+
+}
+
+/********************************\
+			Top Toolbar
+\********************************/
+.topToolbar
+{
+	background-image:url(~/images/top_toolbar_gradiant.jpg);
+	background-repeat:repeat-x;
+	color:white;
+	height: 38px;	
+	font-size: 1.2em
+}
+.topToolbarStaticItem
+{
+	width: 250px;
+	background-color: #eaeef1;
+	font-weight: bold;
+	margin-left: 4px;
+	padding-left: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-right: 4px;
+	text-decoration: none;
+}
+a.topToolbarStaticItem
+{
+	text-decoration: none;
+}
+a.topToolbarStaticItem:hover
+{
+	text-decoration: underline;
+	color: #00FFFF;
+}
+.topToolbarStaticHover
+{	
+	color: #339dfa;
+}
+.topToolbarDynamicItem
+{
+	font-size: .8em;
+	font-weight: bold;
+}
+a.topToolbarDynamicItem
+{
+	color: #054c8b;	
+}
+a:visited.topToolbarDynamicItem
+{
+	color: #054c8b;	
+	text-decoration: none;
+}
+.topToolbarStaticDropDown
+{
+
+	PADDING-TOP: 0px;	
+	padding-left: 8px;
+	padding-right: 14px;
+	
+	
+}
+a:visited.topToolbarItem
+{
+	text-decoration: none;
+	color: #054c8b;	
+	
+}
+
+/********************************\
+			Lists
+\********************************/
+.ColumnHeader
+{
+	font-weight: bold;	
+}
+div:hover.SelectableRow
+{
+	background-color: #DFDFFF;
+	color: #993366;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.Alternating
+{
+	background-color: #F2F2FF;
+}
+
+
+
+/********************************\
+	  Standard Control Styles
+\********************************/
+.Field
+{
+	min-width:300px;
+	padding-left:8px;
+	padding-right:8px;	
+}
+.CaptionDiv
+{
+	padding: 4px 0px 4px 4px;
+	margin-bottom: 6px;
+	min-width: 100px;
+	vertical-align: middle;
+	min-height: 20px;
+}
+.InputDiv
+{
+	min-width: 200px;
+}
+.SectionHeader
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.PageSectionHeader
+{
+	font-size: 1.4em;
+}
+.Label
+{
+}
+.Input
+{
+}
+/********************************\
+	 Rounded Corners
+\********************************/
+.RoundUpperLeft{
+	width : 50%;
+	margin-left : auto;
+	margin-right : auto;
+
+	background-color : #C0C0C0;
+	background-image : url('~/images/rounded/upperleft.png');
+	background-repeat : no-repeat;
+	background-position : top left;
+}
+
+.RoundUpperRight{
+	background-image : url('~/images/rounded/upperright.png');
+	background-repeat : no-repeat;
+	background-position : top right;
+}
+
+.RoundLowerLeft{
+	background-image : url('~/images/rounded/lowerleft.png');
+	background-repeat : no-repeat;
+	background-position : bottom left;
+}
+.RoundLowerRight{
+	background-image : url('~/images/rounded/lowerright.png');
+	background-repeat : no-repeat;
+	background-position : bottom right;
+	padding : 3% 3% 3% 3%;
+}
+
+/********************************\
+	 ActionBar
+\********************************/        
+.ActionBarLink
+{
+	text-decoration: none;
+    font-weight:bold;
+}
+a.ActionBarLink:visited
+{
+	text-decoration: none;
+}
+a.ActionBarLink:hover
+{
+	text-decoration: underline;
+}
+.ActionBar
+{
+    width: 200px;
+    height: 40px;      
+    background-repeat:repeat-x;  
+}
+.ActionBarTop
+{
+    background-image: url(~/images/ActionBarTop.png);
+    background-repeat:no-repeat;
+    height:21px;
+}
+.ActionBarBottom
+{
+    background-repeat:no-repeat;
+    height:21px;
+    background-image: url(~/images/ActionBarBottom.png);
+}
+.ActionBarItem
+{
+	padding-top: 4px;
+	padding-left: 42px;
+}
+.ActionBarBody
+{
+    width:196px; 
+    background-image: url(~/images/actionbarbackground.png); 
+    background-repeat: repeat;
+}
+.activelabelcontrol
+{
+	font-size:larger;
+	font-weight:bold;
+	font-family:Comic Sans MS, Verdana;
+	color: #0000FF;
+}
+	.summarylabel
+{
+	font-size:large;
+	font-weight:bold;
+	font-family: Verdana,Comic Sans MS
+}
+.transactiondisplay
+{
+	font-size:small;
+	font-weight:bold;
+	font-family:Comic Sans MS, Verdana
+}
+.imageverificationtext
+{
+	font-size:larger;
+	font-weight:bold;
+	font-family:Comic Sans MS, Verdana
+}
+.menudisplay
+{
+	font-size:large;
+	font-weight:bold;
+	font-family:Comic Sans MS, Verdana
+}
+.requiredfield
+{
+	font-size:smaller 
+	}
+	
+	.requiredfield2
+{
+	font-size:medium 
+	}
+	
+.lightdemacation
+{
+	background-color :#333333;
+	text-align: left;
+}
+.darkdemacation
+{
+	background-color:#333333;
+}

@@ -1,0 +1,232 @@
+﻿body {
+	background-color: #EEEEEE;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 7px;
+	margin-right: 0px;
+	margin-bottom: 7px;
+	margin-left: 7px;
+}
+
+A {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #FF6600; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #FF9900; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #FF6600; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+
+.verdanaWhite {
+	font-family: verdana;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 2px;
+	text-transform: lowercase;
+}
+.brdr_Line {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #964E76;
+	font-size: 10px;
+}
+.lowercase {
+	text-transform: lowercase;
+	font-family: verdana;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.uppercase {
+	font-family: "Verdana, Arial, Helvetica, sans-serif";
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.pinkLink {
+	font-family: arial;
+	font-size: 9px;
+	color: #F2C3E5;
+}
+.borderGrey {
+	border: 1px solid #C5C5C5;
+}
+.RedBorder {
+	border: 1px solid #964E76;
+	padding: 25px;
+	margin: auto;
+}
+.home {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 4px;
+}
+
+.white_footnote {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+}
+
+.pinkPipe {
+	FONT-SIZE: 7pt;
+	COLOR: #FF9900;
+	margin-top: 0px;
+	margin-right: 2px;
+	margin-bottom: 0px;
+	margin-left: 2px;
+}
+
+#tableContainer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+
+.goAnchor {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 8pt; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; CURSOR: hand; COLOR: #ffffff; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; HEIGHT: 16px; BACKGROUND-COLOR: #FF6600; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: none
+}
+
+.mLeft5 {
+	MARGIN-LEFT: 5px
+}
+/* Main Menu beginning*/
+.button {
+	PADDING-RIGHT: 5px; BORDER-TOP: #FF6600 1px solid; DISPLAY: block; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: #FF6600 1px solid; FONT-STYLE: normal; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #FF6600; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.button:active {
+	PADDING-RIGHT: 5px; BORDER-TOP: #FF6600 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: #FF6600 1px solid; FONT-STYLE: normal; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #FF9900; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.button:hover {
+	PADDING-RIGHT: 5px; BORDER-TOP: #FF6600 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: #FF6600 1px solid; FONT-STYLE: normal; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #FF9900; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.button1 {
+	BORDER-RIGHT: #FF6600 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #FF6600 1px solid; DISPLAY: block; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; FLOAT: left; PADDING-BOTTOM: 2px; BORDER-LEFT: #FF6600 1px solid; COLOR: #FF6600; PADDING-TOP: 2px; BORDER-BOTTOM: #ffffff 1px solid; FONT-STYLE: normal; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+
+.vSpacer15 {
+	HEIGHT: 15px
+}
+.mastHeadContainer {
+	WIDTH: 400px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.padding {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 2px; PADDING-TOP: 0px; BORDER-BOTTOM: #FF6600 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #ffffff
+}
+
+/* Main Menu Ending*/
+
+
+/* Left Menu key to Success Beginning */
+div.optionsHeader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	vertical-align: middle;
+	background-color: #ffffcc;
+	color: #333333;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #ffffff;
+	border-bottom-color: #FF6600;
+	padding-top: 3px;
+	padding-right: 4px;
+	padding-bottom: 3px;
+	padding-left: 4px;
+}
+div.optionsHeader a {
+	display: block;
+	text-decoration: none;
+}
+div.optionsHeader a:hover, div.optionsHeader a:active  {
+	color: #000000;
+}
+
+/* Left Menu key to Success ending */
+.contentId {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #006600;
+	background-color: #F5E1B4;
+	padding-right: 4px;
+	padding-left: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-transform: capitalize;
+}
+.list {
+	list-style-type: square;
+	list-style-image: url(../images/pink.gif);
+}
+.pink {
+	font-size: 8pt;
+	color: #FF6600;
+}
+.headtxt {
+	font-size: 14px;
+	color: #FF6600;
+	font-weight: bold;
+}
+
+.subHeader {
+	color: #FF6600;
+	font-size: 12px;
+	font-weight: bold;
+}
+.pink_brgd {
+	width: 270px;
+	border: 1px solid #FF6600;
+}
+
+
+.homeId {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #990099;
+	padding-right: 4px;
+	padding-left: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#PosTitleHolder {
+	position:absolute;
+	left:65px;
+	top:1265px;
+	width:63px;
+	height:15px;
+	z-index:3;
+}
+.call {
+	color: #990099;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+.purple {
+	font-size: 8pt;
+	color: #990099;
+}
+
+ 
+  .style3 {
+	font-family: "Times New Roman", Times, serif;
+	text-align: justify;
+	font-style:normal;
+	font-size:12px;
+	color:Gray;
+
+}
+
+
+
+/* footer nav links */
+a.links:link { color:#990099; text-decoration:none; font-size: 9px; }
+a.links:active { color:#990099; text-decoration:none; font-size: 9px;  }
+a.links:visited { color:#990099; text-decoration:none; font-size: 9px; }
+a.links:hover { color:#990099; text-decoration:underline; font-size: 9px; }	

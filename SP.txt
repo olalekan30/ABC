@@ -1,0 +1,114 @@
+USE [AutoEnhancer]
+GO
+/****** Object:  StoredProcedure [dbo].[PROC_GETCUSTOMERDETAILS]    Script Date: 2/11/2018 8:05:26 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+--execute PROC_GETCUSTOMERDETAILS 2004000006
+
+--execute PROC_GETCUSTOMERDETAILS 2015000047
+ALTER PROCEDURE [dbo].[PROC_GETCUSTOMERDETAILS]
+   @estimateID int
+ AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;   
+	
+SELECT        'KP1' + SUBSTRING(estimate.estimate, 5, LEN(estimate.estimate)) AS estimate, estimate.engine, estimate.RegistrationNo, CONVERT(varchar, estimate.estimatedate, 103) AS estimatedateddate, estimate.model, 
+                         estimate.chassisno, Customer.customer, Customer.custnamefirst + ' ' + Customer.custnamemiddle + ' ' + Customer.custnamelast AS 'CustomerName', CASE WHEN RIGHT('0' + CAST(ISNULL(mobileno, '') 
+                         AS VARCHAR(11)), 11) = '0' THEN '' ELSE RIGHT('0' + CAST(ISNULL(mobileno, '') AS VARCHAR(11)), 11) END + ' ' + CASE WHEN RIGHT('0' + CAST(ISNULL(custphone1, '') AS VARCHAR(11)), 11) 
+                         = '0' THEN '' ELSE RIGHT('0' + CAST(ISNULL(custphone1, '') AS VARCHAR(11)), 11) END + ' ' + CASE WHEN RIGHT('0' + CAST(ISNULL(custphone2, '') AS VARCHAR(11)), 11) 
+                         = '0' THEN '' ELSE RIGHT('0' + CAST(ISNULL(custphone2, '') AS VARCHAR(11)), 11) END + ' ' + CASE WHEN RIGHT('0' + CAST(ISNULL(offphone1, '') AS VARCHAR(11)), 11) 
+                         = '0' THEN '' ELSE RIGHT('0' + CAST(ISNULL(offphone1, '') AS VARCHAR(11)), 11) END + ' ' + CASE WHEN RIGHT('0' + CAST(ISNULL(offphone2, '') AS VARCHAR(11)), 11) 
+                         = '0' THEN '' ELSE RIGHT('0' + CAST(ISNULL(offphone2, '') AS VARCHAR(11)), 11) END AS 'PhoneNumbers', estimate.mileage,servhead.service,  servhead.servicedesc, estimate.spareamt, estimate.laboramt, city.cityname, 
+                         Customer.state, Customer.street, Customer.block, estimate.estnetamt,estimate.estnetamt as amttonaira, estimate.RoundOff, estimate.sparetotal + estimate.labortotal AS Total,0.05 * (estimate.sparetotal + estimate.labortotal) VATS
+FROM            Customer INNER JOIN
+                         vehiclemaster ON Customer.customer = vehiclemaster.custcode INNER JOIN
+                         estimate ON vehiclemaster.ChassisNO = estimate.chassisno AND vehiclemaster.RegistrationNo = estimate.RegistrationNo INNER JOIN
+                         servhead ON estimate.service = servhead.service LEFT OUTER JOIN
+                         city ON Customer.city = city.citycode
+WHERE        (estimate.estimate = @estimateID)
+	
+
+
+
+END
+
+
+
+
+USE [AutoEnhancer]
+GO
+/****** Object:  StoredProcedure [dbo].[PROC_GETLABOURDETAILS]    Script Date: 2/11/2018 8:09:53 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+--execute PROC_GETLABOURDETAILS 2004000006
+
+ALTER PROCEDURE [dbo].[PROC_GETLABOURDETAILS]
+   @estimateID int
+ AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;      
+
+
+SELECT        servhead.servicedesc, labourhead.labdesc, labourhead.labour, estimatelabour.hoursreq, estimatelabour.labouramt, servhead.service
+FROM            Customer INNER JOIN
+                         vehiclemaster ON Customer.customer = vehiclemaster.custcode INNER JOIN
+                         estimate ON vehiclemaster.ChassisNO = estimate.chassisno AND vehiclemaster.RegistrationNo = estimate.RegistrationNo INNER JOIN
+                         servhead ON estimate.service = servhead.service INNER JOIN
+                         estimatelabour ON estimate.estimate = estimatelabour.estimate INNER JOIN
+                         labourhead ON estimatelabour.labour = labourhead.labour
+WHERE        (estimate.estimate = @estimateID) ORDER BY estimatelabour.estimate
+
+
+END
+
+USE [AutoEnhancer]
+GO
+/****** Object:  StoredProcedure [dbo].[PROC_GETPARTSDETAILS]    Script Date: 2/11/2018 8:10:21 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[PROC_GETPARTSDETAILS]
+   @estimateID int
+ AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;      
+
+SELECT        estimateparts.retailrate, estimateparts.quantityreq, partmast.partdesc partdesc, estimateparts.part
+FROM            estimate INNER JOIN
+                         estimateparts ON estimate.estimate = estimateparts.estimate INNER JOIN
+                         partmast ON estimateparts.make = partmast.make AND estimateparts.part = partmast.part
+WHERE        (estimate.estimate = @estimateID)
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

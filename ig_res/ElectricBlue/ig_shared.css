@@ -1,0 +1,151 @@
+.ig_ElectricBlueControl
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	color:Black;
+}
+
+
+.ig_ElectricBlueItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_ElectricBlueButton
+{
+	cursor:hand;
+}
+
+
+.ig_ElectricBlueButtonHover
+{
+}
+
+
+.ig_ElectricBlueButtonPressed
+{
+}
+
+
+.ig_ElectricBlueButtonDisabled
+{
+}
+
+
+.ig_ElectricBlueHover
+{
+}
+
+
+.ig_ElectricBlueSelected
+{
+}
+
+
+.ig_ElectricBlueDisabled
+{
+}
+
+
+.ig_ElectricBlueHeader
+{
+}
+
+
+.ig_ElectricBlueFooter
+{
+}
+
+
+.ig_ElectricBlueEditWithButtons
+{
+}
+
+
+.ig_ElectricBlueEdit
+{
+}
+
+
+.ig_ElectricBlueEditInContainer
+{
+}
+
+
+.ig_ElectricBlueAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_ElectricBlueDropDown
+{
+}
+
+
+.ig_ElectricBlueEditSelected
+{
+}
+
+.ms-WPBody .ig_ElectricBlueControl TD
+{
+	border-bottom:none;
+	background-color:transparent;
+	font-size:xx-small;
+}
+.ms-WPBody .ig_ElectricBlueControl TD
+{
+	background-color:inherit;
+	font:inherit;
+}
+.ms-WPBody .ig_ElectricBlueControl TABLE
+{
+	font-size:xx-small;
+	border-collapse:separate;
+}
+.ms-WPBody .ig_ElectricBlueControl TABLE
+{
+	font:inherit;
+}
+.ms-WPBody .igdw_ElectricBlueControl TD
+{
+	background-color:white;
+}
+.ms-WPBody .igmc_ElectricBlueControl TD
+{
+	border:none;
+	background-color:transparent;
+	font-size:xx-small;
+}
+.ms-WPBody .igmc_ElectricBlueControl TD
+{
+	border:inherit;
+	background-color:inherit;
+	font:inherit;
+}
+.ms-WPBody .igmc_ElectricBlueControl TABLE
+{
+	font-size:xx-small;
+}
+.ms-WPBody .igmc_ElectricBlueControl TABLE
+{
+	font:inherit;
+}
+.ms-WPBody .igte_ElectricBlueEditWithButtons TD
+{
+	border-bottom:none;
+	background-color:transparent;
+	font-size:1px;
+}
+.ms-WPBody .igte_ElectricBlueEditWithButtons TABLE
+{
+	font-size:1px;
+}

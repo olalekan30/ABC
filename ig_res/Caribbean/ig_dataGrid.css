@@ -1,0 +1,656 @@
+.igg_CaribbeanControl
+{
+	background-color:WhiteSmoke;
+	border:solid 1px #001060;
+	cursor:default;
+}
+
+
+.igg_CaribbeanHeader
+{
+	background-color:#ACB3F6;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/header_grid.gif);
+	height: 25px;
+	color:White;
+}
+
+
+.igg_CaribbeanHeaderCaption
+{
+	border-width:0px;
+	padding-left:8px;
+	overflow: hidden;
+	text-align:left;
+}
+
+
+.igg_CaribbeanFooter
+{
+	background-color:#F3F8FB;
+	height: 22px;
+	line-height: 21px;
+	background-color:#eeeeee;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_FooterBG.png);
+}
+
+
+.igg_CaribbeanFooterCaption
+{
+	font-weight:normal;
+	padding-left:8px;
+	overflow: hidden;
+	text-align:left;
+}
+
+
+tbody.igg_CaribbeanItemIE6 tr td
+{
+	background-color:#F4F6F6;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/item_bg.gif);
+	border-top:solid 1px Gainsboro;
+	padding:5px 8px 5px 8px;
+	overflow: hidden;
+	vertical-align:middle;
+}
+
+
+tbody.igg_CaribbeanItem>tr>td
+{
+	background-color:#F4F6F6;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/item_bg.gif);
+	border-top:solid 1px Gainsboro;
+	padding:5px 8px 5px 8px;
+	overflow: hidden;
+	vertical-align:middle;
+}
+
+
+.igg_CaribbeanScrollbarIntersection
+{
+}
+
+
+.igg_CaribbeanRowSelector
+{
+	background-color:White;
+	border-top:solid 1px #DCDCDC;
+	border-right:solid 1px #DCDCDC;
+	width: 35px;
+	color:Black;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igg_CaribbeanPager
+{
+	background-color:#E0F3FB;
+	background-image: url(images/item_alt.gif);
+	border-width:0px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	text-align:right;
+}
+
+
+.igg_CaribbeanPageLink
+{
+	font-weight:bold;
+	margin-right:15px;
+	color:DarkBlue;
+	text-decoration:underline;
+	cursor: pointer;
+}
+
+
+.igg_CaribbeanFilterRuleDropDown
+{
+	background-color:White;
+	border:solid 1px #001060;
+	overflow: auto;
+	width: 150px;
+	max-height: 150px;
+	height: auto !important;
+	height: 150px;
+}
+
+
+.igg_CaribbeanFilterButton
+{
+	background-color:Transparent;
+	border-style:solid;
+	border-width:0px;
+	height: 18px;
+}
+
+
+.igg_CaribbeanResizeIndicator
+{
+	background-color:#2866D2;
+	width: 2px;
+}
+
+
+tbody tr.igg_CaribbeanAltIE6 td
+{
+	background-color:#E6F5FC;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/item_alt.gif);
+	padding:5px 8px 5px 8px;
+	vertical-align:middle;
+}
+
+
+tbody>tr.igg_CaribbeanAlt>td
+{
+	background-color:#E6F5FC;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/item_alt.gif);
+	padding:5px 8px 5px 8px;
+	vertical-align:middle;
+}
+
+
+.igg_CaribbeanHeaderRowSelector
+{
+	background-color:Transparent;
+	background-image: none;
+	border:solid 0px Gainsboro;
+}
+
+
+.igg_CaribbeanFooterRowSelector
+{
+	background-color:Transparent;
+	background-image: none;
+	border:solid 0px Gainsboro;
+}
+
+
+.igg_CaribbeanSelectedHeader
+{
+}
+
+tbody.igg_CaribbeanFixedColumnCellCssClass>tr>td
+{
+}
+
+.igg_CaribbeanFixedColumnFooterCssClass
+{
+	font-weight: bold;
+}
+
+.igg_CaribbeanPageCurrent
+{
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/submit_down.gif);
+	font-weight:bold;
+	margin-right:15px;
+	padding:2px 6px 5px 6px;
+	width: 20px;
+	color:White;
+}
+
+
+tr.igg_CaribbeanAddNewRowIE6 td
+{
+	background-color:#F7F7F7;
+	font-size:10px;
+	font-family: Verdana;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	padding-left:7px;
+	height: 22px;
+	overflow: hidden;
+}
+
+
+tr.igg_CaribbeanAddNewRow>td
+{
+	background-color:#F7F7F7;
+	font-size:10px;
+	font-family: Verdana;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	padding-left:7px;
+	height: 22px;
+	overflow: hidden;
+	color: #333333;
+}
+
+
+tr.igg_CaribbeanAddNewRowTopIE6 td
+{
+}
+
+
+tr.igg_CaribbeanAddNewRowTop>td
+{
+}
+
+
+tr.igg_CaribbeanAddNewRowBottomIE6 td
+{
+}
+
+
+tr.igg_CaribbeanAddNewRowBottom>td
+{
+}
+
+
+.igg_CaribbeanAddNewRowSelectorImageCssClass
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/addnewrow_image.gif);
+}
+
+
+.igg_CaribbeanAddNewRowSelectorCssClass
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+.igg_CaribbeanFilterRow
+{
+	font-size:10px;
+	font-family: Verdana;
+	border-top:solid 0px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 1px #CCCCCC;
+	border-left:solid 1px #CCCCCC;
+	height: 22px;
+	color:Black;
+}
+
+
+.igg_CaribbeanFilterRuleDropDownItem
+{
+	font-size:11px;
+	font-family: Verdana;
+	margin:1px 0px 1px 0px;
+	padding:0px 3px 0px 3px;
+}
+
+
+.igg_CaribbeanFilterRowSelectorImage
+{
+}
+
+
+.igg_CaribbeanFilterRowSelectorCssClass
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tr.igg_CaribbeanFilterRowIE6 td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tr.igg_CaribbeanFilterRow>td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tr.igg_CaribbeanFilterRowTopIE6 td
+{
+}
+
+
+tr.igg_CaribbeanFilterRowTop>td
+{
+}
+
+
+tr.igg_CaribbeanFilterRowBottomIE6 td
+{
+}
+
+
+tr.igg_CaribbeanFilterRowBottom>td
+{
+}
+
+
+.igg_CaribbeanHeaderScrollbarIntersection
+{
+}
+
+
+.igg_CaribbeanFooterScrollbarIntersection
+{
+}
+
+
+.igg_CaribbeanSelectedRowSelector
+{
+	background-position:left center ;
+	background-image: url(images/selectedrowselector.gif);
+	background-color: #6BB6EB;
+	background-repeat: no-repeat;
+}
+
+
+.igg_CaribbeanSelectedRowSelectorImage
+{
+}
+
+
+.igg_CaribbeanFilterRuleDropDownSelectedItem
+{
+	font-size:11px;
+	font-family: Verdana;
+	margin:1px 0px 1px 0px;
+	padding:0px 3px 0px 3px;
+}
+
+
+tbody tr td.igg_CaribbeanSelectedCellIE6
+{
+	background-color:#4A87DC;
+	background-image: url(images/igg_selected.gif);
+	color:White;
+}
+
+
+tbody>tr>td.igg_CaribbeanSelectedCell
+{
+	background-color:#4A87DC;
+	background-image: url(images/igg_selected.gif);
+	color:White;
+}
+
+
+.igg_CaribbeanAddNewRowScrollbarIntersection
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+.igg_CaribbeanFilterDisabled
+{
+}
+
+
+.igg_CaribbeanFilterScrollbarIntersection
+{
+	background-color:#EEEEEE;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tbody tr td.igg_CaribbeanActiveCellIE6
+{
+}
+
+
+tbody>tr>td.igg_CaribbeanActiveCell
+{
+}
+
+
+.igg_CaribbeanActiveRow
+{
+}
+
+
+.igg_CaribbeanActiveColumn
+{
+}
+
+
+.igg_CaribbeanActiveRowSelectorImage
+{
+	color:White;
+}
+
+
+.igg_CaribbeanActiveRowSelector
+{
+	background-position:left center ;
+	background-image: url(images/selectedrowselector.gif);
+	background-repeat: no-repeat;
+	background-color: #6BB6EB;
+}
+
+
+.igg_CaribbeanFilterRuleDropDownHoverItem
+{
+	background-image: url(images/header.gif);
+	font-size:11px;
+	font-family: Verdana;
+	margin:1px 0px 1px 0px;
+	padding:0px 3px 0px 3px;
+	color:White;
+}
+
+
+.igg_CaribbeanEditCell
+{
+	background:White !important;
+	border:solid 1px #AAAAAA !important;
+}
+
+.igg_CaribbeanFixedColumnSeparatorCssClass
+{
+	width: 3px;
+	background-color: #2A6AD3; 
+}
+
+.igg_CaribbeanFixedColumnPinButtonCssClass
+{
+	padding: 0px 3px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.igg_CaribbeanFixedColumnHeaderCSSClass
+{
+}
+
+.igg_CaribbeanVirtualScrollTooltip
+{
+	background-color:#2866D2;
+	font-size:10px;
+	border:solid 1px #001060;
+	padding:3px;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+
+.igg_CaribbeanFilterButton>td
+{
+	border-top:solid 0px Transparent;
+	border-right:solid 0px Transparent;
+	border-bottom:solid 0px Transparent;
+	border-left:solid 0px Transparent;
+}
+
+
+.igg_CaribbeanTopDragIndicator
+{
+      background-image:url("images/igg_TopDragIndicator.png");
+      background-repeat: no-repeat;
+      width:11px; 
+      height:6px;
+      margin-top: 2px;
+      z-index: 100;
+}
+
+.igg_CaribbeanMiddleDragIndicator
+{
+      background-image:url("images/igg_MiddleDragIndicator.png");
+      background-repeat: repeat-y;
+      background-position: center;
+      width:11px; 
+}
+
+.igg_CaribbeanBottomDragIndicator
+{
+      background-image:url("images/igg_BottomDragIndicator.png");
+      background-repeat: no-repeat;
+      width:11px; 
+      height:6px;
+      position: absolute;
+      margin-top: -2px;
+      z-index: 100;   
+}
+
+
+/*********************/
+/**  Summary styles **/
+/*********************/
+
+.igg_CaribbeanFilterRuleDropDown 
+{
+    font-family:verdana;
+    font-size:xx-small;
+    
+    background:#fff url(images/igg_SummaryDropDownBG.png) repeat-x scroll;
+    border:1px solid #83AFDF;
+    
+    /*Rounded corners*/
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    
+    /*Shadow*/
+    -moz-box-shadow: 0 4px 8px 0 #5A5A5A;
+    -webkit-box-shadow: 0 4px 8px 0 #5A5A5A;
+    box-shadow : 0 4px 8px 0 #5A5A5A; /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#5A5A5A')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#5A5A5A');
+    
+}
+
+.igg_CaribbeanFooterSummary
+{
+  border-bottom:1px solid #CBCBCB;
+  color:#444444;
+}
+
+/** Removed Property (Olga Kerchentseva mail 5/25/2010 )**/
+/*
+.igg_CaribbeanFooterSummariesCaption
+{
+    color:#000;
+    background:#88C2E8 url(images/igg_FooterSummariesBG.png) repeat-x scroll;
+} */
+
+.igg_CaribbeanSummaryDropDown
+{
+    font-family:verdana;
+    font-size:11px;
+    
+    background:#fff url(images/igg_SummaryDropDownBG.png) repeat-x scroll;
+    padding:12px;
+    border:1px solid #011161;
+    
+    /*Rounded corners*/
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    
+    /*Shadow*/
+    -moz-box-shadow: 0 4px 8px 0 #5A5A5A;
+    -webkit-box-shadow: 0 4px 8px 0 #5A5A5A;
+    box-shadow : 0 4px 8px 0 #5A5A5A; /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#5A5A5A')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#5A5A5A');
+    
+}
+    .igg_CaribbeanSummaryDropDown input
+    {
+        margin-top:10px;
+        margin-right:3px;
+        width:55px;
+        
+        border:1px solid #011161;
+        background: #4A87DC url(images/igg_ButtonsBG.png) repeat-x scroll;
+        color:#fff;        
+        -webkit-border-radius: 3px;    
+        -moz-border-radius: 3px;
+    }
+    
+.igg_CaribbeanSummaryDropDownItem
+{
+    cursor:default;
+}
+
+    .igg_CaribbeanSummaryDropDownItem img
+    {
+        margin-right:5px;
+        cursor:pointer;
+    }
+
+.igg_CaribbeanSummaryButton 
+{
+    background:none;
+    border:medium none;
+    cursor:pointer;
+    margin:0;
+    padding:0;
+}
+
+/******************/
+
+
+@media print{.igg_CaribbeanControl, .igg_CaribbeanControl div{width:auto !important; height:auto !important; overflow: visible !important;}}

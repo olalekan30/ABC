@@ -1,0 +1,240 @@
+.igeb_HarvestControl
+{
+    background-color: transparent;
+    color: #000000;
+    font-size: xx-small;
+    font-family: Segoe UI, Verdana, Helvetica, sans-serif;
+    overflow-x: hidden;
+    border: solid 1px #97462C;
+    border-top-width: 0px;
+	
+	/* IE6 fix to remove control's scroll bar */
+	_overflow:hidden!important;
+}
+
+.igeb_HarvestGroupLink
+{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+    /* Used to give padding to group icons */
+    padding-left:6px
+}
+
+.igeb_HarvestHolder
+{
+}
+
+.igeb_HarvestItemImage
+{
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.igeb_HarvestGroup
+{
+    display: block;
+    height: 30px;
+    vertical-align: middle;
+    overflow: hidden;
+    line-height: 30px;
+    background-repeat: repeat-x;
+    background-image: url(images/igeb_GroupBg.png);
+    color: #97462C;
+}
+
+.igeb_HarvestGroup a:visited
+{
+    color: #97462C;
+}
+
+.igeb_HarvestGroup a
+{
+    color: #97462C;
+}
+
+.igeb_HarvestGroupHover
+{
+    background-position: 0px -30px;
+    background-repeat: repeat-x;
+    background-image: url(images/igeb_GroupBg.png);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.igeb_HarvestGroupHover a:visited
+{
+    color: #FFFFFF;
+}
+
+.igeb_HarvestGroupHover a
+{
+    color: #FFFFFF;
+}
+
+.igeb_HarvestGroupLabel
+{
+    margin-left: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-family: Segoe UI, Verdana, Sans-Serif;
+    text-decoration: none;
+}
+
+.igeb_HarvestItemLink
+{
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.igeb_HarvestGroupSelected
+{
+    background-position: 0px -30px;
+    background-repeat: repeat-x;
+    background-image: url(images/igeb_GroupBg.png);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.igeb_HarvestGroupSelected a:visited
+{
+    color: #FFFFFF;
+}
+
+.igeb_HarvestGroupSelected a
+{
+    color: #FFFFFF;
+}
+
+.igeb_HarvestGroupActive
+{
+    background-position: 0px -30px;
+    background-repeat: repeat-x;
+    background-image: url(images/igeb_GroupBg.png);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.igeb_HarvestGroupActive a:visited
+{
+    color: #FFFFFF;
+}
+
+.igeb_HarvestGroupActive a
+{
+    color: #FFFFFF;
+}
+
+.igeb_HarvestGroupDisabled
+{
+    background: #ccc;
+    color:Gray;
+}
+
+.igeb_HarvestItem
+{
+    background-color: #FFFFFF;
+    line-height: 22px;
+}
+
+    /* IE 7 fix to icon bad alignment*/
+    .igeb_HarvestItem  ,.igeb_HarvestItemActive ,.igeb_HarvestItemSelected 
+    {
+       min-height:30px;
+       
+       /* IE6 specific fix */
+       _height:30px;
+    }
+
+.igeb_HarvestItemLabel
+{
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+}
+
+.igeb_HarvestGroupExpanderImage
+{
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.igeb_HarvestItemImage
+{
+    vertical-align: middle;
+}
+
+.igeb_HarvestItemSelected
+{
+    background-color: #B57B5E;
+}
+
+.igeb_HarvestItemActive
+{
+    background-color: #B57B5E;
+}
+
+.igeb_HarvestItemHover
+{
+    background-color: #B57B5E;
+}
+.igeb_HarvestItemParent
+{
+    background-image: url(images/igeb_Bullet.png);
+    background-repeat: no-repeat;
+}
+
+.igeb_HarvestItemDisabled
+{
+    
+}
+    /* IE 7 Disabled item fix */
+
+    .igeb_HarvestItemDisabled a:visited, .igeb_HarvestItemDisabled a
+    {
+        color: Gray;
+    }
+    
+.igeb_HarvestGroupContents
+{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.igeb_HarvestItemContents
+{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.igeb_HarvestItemHolder
+{
+}
+
+
+
+.igeb_HarvestItemHolder img
+{
+    vertical-align: middle;
+}
+

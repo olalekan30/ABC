@@ -1,0 +1,234 @@
+.igeb_Office2007BlueControl {
+	background-color:transparent;
+	color:#000000;
+	font-size: xx-small;
+	font-family: Segoe UI, Verdana, Helvetica, sans-serif;
+	overflow-x:hidden;
+	border: solid 1px #6593CF;
+	border-top-width: 0px;
+	
+	/* IE6 fix to remove control's scroll bar */
+	_overflow:hidden!important;
+}
+
+.igeb_Office2007BlueGroupLink
+{
+	display:block;
+	text-decoration:none;
+	color:inherit;
+	margin-bottom:0px;
+	padding-bottom:0px;
+     
+    /* Used to give padding to group icons */
+    padding-left:6px
+}
+
+.igeb_Office2007BlueHolder 
+{
+}
+
+.igeb_Office2007BlueItemImage 
+{
+    padding-top:5px;
+	padding-left:0px;
+	padding-right:5px;
+}
+
+.igeb_Office2007BlueGroup {
+
+	display:block;
+	height:30px;
+	vertical-align:middle;
+	overflow:hidden;
+	line-height:30px;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_GroupBg.png);
+	background-position:0px -60px;
+	color:#204D89;
+}
+
+.igeb_Office2007BlueGroup a:visited {
+
+	color:#204D89;
+}
+
+.igeb_Office2007BlueGroup a {
+
+	color:#204D89;
+}
+
+
+.igeb_Office2007BlueGroupHover {
+	background-position:0px -30px;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_GroupBg.png);
+	color:#204D89;
+}
+
+.igeb_Office2007BlueGroupHover a:visited {
+	color:#204D89;
+
+}
+
+.igeb_Office2007BlueGroupHover a {
+
+	color:#204D89;
+
+}
+
+.igeb_Office2007BlueGroupLabel 
+{
+	margin-left:5px;
+	padding-left:5px;
+	font-size:12px;
+	font-weight:bold;
+	font-family: Segoe UI, Verdana, Sans-Serif;	
+	text-decoration: none;
+}
+
+.igeb_Office2007BlueItemLink
+{
+	display:block;
+	text-decoration:none;	
+	color:#333333;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.igeb_Office2007BlueGroupSelected 
+{
+	background-position:0px 0px;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_GroupBg.png);
+	color:#000000;
+}
+
+.igeb_Office2007BlueGroupSelected a:visited
+{
+	color:#000000;
+}
+
+.igeb_Office2007BlueGroupSelected a
+{
+	color:#000000;
+}
+
+.igeb_Office2007BlueGroupActive 
+{
+    background-position:0px 0px;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_GroupBg.png);
+	color:#000000;
+}
+
+.igeb_Office2007BlueGroupActive a:visited
+{
+	color:#000000;
+}
+
+.igeb_Office2007BlueGroupActive a
+{
+	color:#000000;
+}
+
+.igeb_Office2007BlueGroupDisabled 
+{
+    background-position:0px -90px;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_GroupBg.png);
+	color:#000000;
+}
+
+
+.igeb_Office2007BlueItem
+{
+
+	background-color: #FFFFFF;
+	line-height:22px;
+}
+    /* IE 7 fix to icon bad alignment*/
+    .igeb_Office2007BlueItem  ,.igeb_Office2007BlueItemActive ,.igeb_Office2007BlueItemSelected 
+    {
+       min-height:30px;
+       
+       /* IE6 specific fix */
+       _height:30px;
+    }
+    
+    
+.igeb_Office2007BlueItemLabel
+{
+	display:block;
+	font-size:12px;
+	font-weight:normal;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+}
+
+.igeb_Office2007BlueGroupExpanderImage
+{
+	float: right;
+	margin-right: 5px;
+	margin-top:5px;
+}
+
+.igeb_Office2007BlueItemImage {	
+	vertical-align: middle;
+}
+
+.igeb_Office2007BlueItemSelected {
+	background-color:#FFE7A2;
+}
+
+.igeb_Office2007BlueItemActive 
+{
+	background-color:#FFE7A2;
+}
+
+.igeb_Office2007BlueItemHover {
+	background-color:#FFE7A2;
+}
+
+.igeb_Office2007BlueItemParent 
+{
+	
+}
+
+
+.igeb_Office2007BlueItemDisabled
+{
+    
+}
+    /* IE 7 Disabled item fix */
+
+    .igeb_Office2007BlueItemDisabled a:visited, .igeb_Office2007BlueItemDisabled a
+    {
+        color: Gray;
+    }
+    
+    
+.igeb_Office2007BlueGroupContents {
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.igeb_Office2007BlueItemContents 
+{
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+
+.igeb_Office2007BlueItemHolder {
+	
+
+}
+
+.igeb_Office2007BlueItemHolder img {
+	vertical-align: middle;
+}

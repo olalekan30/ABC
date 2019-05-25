@@ -1,0 +1,645 @@
+.igg_HarvestControl
+{
+	border:solid 1px #97462C;
+}
+
+
+.igg_HarvestHeader
+{
+	background-color:#EE8F0C;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_header.gif);
+	height: 25px;
+	color: White;
+}
+
+
+.igg_HarvestHeaderCaption
+{
+	padding-left:8px;
+	overflow: hidden;
+	text-align:left;
+}
+
+
+.igg_HarvestFooter
+{
+	background-color:#EEEEEE;
+	background-repeat:repeat-x;
+/*	background-image: url(images/igg_itembg.gif);*/
+	border-top:solid 1px #D8D8D8;
+	height: 22px;
+	line-height: 21px;
+	background-image: url(images/igg_FooterBG.png);
+}
+
+
+.igg_HarvestFooterCaption
+{
+	font-weight:normal;
+	font-size:10px;
+	padding-left:8px;
+	overflow: hidden;
+	text-align:left;
+}
+
+
+tbody.igg_HarvestItemIE6 tr td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_itembg.gif);
+	border-top:solid 1px #D8D8D8;
+	padding:5px 8px 5px 8px;
+	overflow: hidden;
+	height: 20px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+tbody.igg_HarvestItem>tr>td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_itembg.gif);
+	border-top:solid 1px #D8D8D8;
+	padding:5px 8px 5px 8px;
+	overflow: hidden;
+	height: 20px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igg_HarvestScrollbarIntersection
+{
+}
+
+
+.igg_HarvestRowSelector
+{
+	border-top:solid 1px #D8D8D8;
+	border-right:solid 1px #D8D8D8;
+	width: 35px;
+	color:Black;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igg_HarvestPager
+{
+	background-color:White;
+	padding:10px 10px 10px 0px;
+	text-align:right;
+}
+
+
+.igg_HarvestPageLink
+{
+	padding-right:10px;
+	cursor:hand;
+	color:Gray;
+	text-decoration:underline;
+	cursor: pointer;
+}
+
+
+.igg_HarvestFilterRuleDropDown
+{
+	background-color:White;
+	border:solid 1px #97462C;
+	width: 150px;
+	overflow: auto;
+	max-height: 150px;
+	height: auto !important;
+	height: 150px;
+}
+
+
+.igg_HarvestFilterButton
+{
+	background-color:Transparent;
+	border-style:solid;
+	border-width:0px;
+	height: 18px;
+}
+
+
+.igg_HarvestResizeIndicator
+{
+	background-color:#B57C5F;
+	width: 2px;
+}
+
+
+tbody tr.igg_HarvestAltIE6 td
+{
+	background-color:White;
+	background-image:none;
+	padding:5px 8px 5px 8px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+tbody>tr.igg_HarvestAlt>td
+{
+	background-color:White;
+	background-image:none;
+	padding:5px 8px 5px 8px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igg_HarvestHeaderRowSelector
+{
+	background-color:Transparent;
+	background-image: none;
+	border:solid 0px #FFFFFF;
+}
+
+
+.igg_HarvestFooterRowSelector
+{
+	background-color:Transparent;
+	background-image: none;
+	border:solid 0px #FFFFFF;
+}
+
+
+.igg_HarvestSelectedHeader
+{
+}
+
+tbody.igg_HarvestFixedColumnCellCssClass>tr>td
+{
+}
+
+.igg_HarvestFixedColumnFooterCssClass
+{
+	font-weight: bold;
+}
+
+.igg_HarvestPageCurrent
+{
+	padding-right:10px;
+	color:Firebrick;
+}
+
+
+tr.igg_HarvestAddNewRowIE6 td
+{
+	background-color:#F7F7F7;
+	font-size:10px;
+	font-family: Verdana;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	padding-left:7px;
+	height: 22px;
+	overflow: hidden;
+}
+
+
+tr.igg_HarvestAddNewRow>td
+{
+	background-color:#F7F7F7;
+	font-size:10px;
+	font-family: Verdana;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	padding-left:7px;
+	height: 22px;
+	overflow: hidden;
+	color: #000000;
+}
+
+
+tr.igg_HarvestAddNewRowTopIE6 td
+{
+}
+
+
+tr.igg_HarvestAddNewRowTop>td
+{
+}
+
+
+tr.igg_HarvestAddNewRowBottomIE6 td
+{
+}
+
+
+tr.igg_HarvestAddNewRowBottom>td
+{
+}
+
+
+.igg_HarvestAddNewRowSelectorImageCssClass
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/addnewrow_image.gif);
+}
+
+
+.igg_HarvestAddNewRowSelectorCssClass
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+.igg_HarvestFilterRow
+{
+	font-size:10px;
+	font-family: Verdana;
+	border-top:solid 0px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 1px #CCCCCC;
+	border-left:solid 1px #CCCCCC;
+	height: 22px;
+}
+
+
+.igg_HarvestFilterRuleDropDownItem
+{
+	font-size:11px;
+	font-family: Verdana;
+	padding:0px 3px 0px 3px;
+}
+
+
+.igg_HarvestFilterRowSelectorImage
+{
+}
+
+
+.igg_HarvestFilterRowSelectorCssClass
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tr.igg_HarvestFilterRowIE6 td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	color:Black;
+}
+
+
+tr.igg_HarvestFilterRow>td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	color:Black;
+}
+
+
+tr.igg_HarvestFilterRowTopIE6 td
+{
+}
+
+
+tr.igg_HarvestFilterRowTop>td
+{
+}
+
+
+tr.igg_HarvestFilterRowBottomIE6 td
+{
+}
+
+
+tr.igg_HarvestFilterRowBottom>td
+{
+}
+
+
+.igg_HarvestHeaderScrollbarIntersection
+{
+}
+
+
+.igg_HarvestFooterScrollbarIntersection
+{
+}
+
+
+.igg_HarvestSelectedRowSelector
+{
+	background-position:left center ;
+	background-image: url(images/selectedrowselector.gif);
+	background-repeat: no-repeat;
+}
+
+
+.igg_HarvestSelectedRowSelectorImage
+{
+}
+
+
+.igg_HarvestFilterRuleDropDownSelectedItem
+{
+	background-color:#B57C5F;
+	background-image: url(images/igg_header.gif);
+	font-size:11px;
+	font-family: Verdana;
+	padding:0px 3px 0px 3px;
+	color:White;
+}
+
+
+tbody tr td.igg_HarvestSelectedCellIE6
+{
+	background-color:#B78169;
+	background-image: url(images/igg_selected.gif);
+	color:White;
+}
+
+
+tbody>tr>td.igg_HarvestSelectedCell
+{
+	background-color:#B78169;
+	background-image: url(images/igg_selected.gif);
+	color:White;
+}
+
+
+.igg_HarvestAddNewRowScrollbarIntersection
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+.igg_HarvestFilterDisabled
+{
+}
+
+
+.igg_HarvestFilterScrollbarIntersection
+{
+	background-color:#EEEEEE;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tbody tr td.igg_HarvestActiveCellIE6
+{
+}
+
+
+tbody>tr>td.igg_HarvestActiveCell
+{
+}
+
+
+.igg_HarvestActiveRow
+{
+}
+
+
+.igg_HarvestActiveColumn
+{
+}
+
+
+.igg_HarvestActiveRowSelectorImage
+{
+	color:White;
+}
+
+
+.igg_HarvestActiveRowSelector
+{
+	background-position:left center ;
+	background-image: url(images/selectedrowselector.gif);
+	background-color: #DF800A;
+	background-repeat: no-repeat;
+}
+
+
+.igg_HarvestFilterRuleDropDownHoverItem
+{
+	background-color:#B57C5F;
+	background-image: url(images/igg_header.gif);
+	font-size:11px;
+	font-family: Verdana;
+	padding:0px 3px 0px 3px;
+	color:White;
+}
+
+
+.igg_HarvestEditCell
+{
+	background:White !important;
+	border:solid 1px #AAAAAA !important;
+}
+
+.igg_HarvestFixedColumnSeparatorCssClass
+{
+	width: 3px;
+	background-color: #97462C; 
+}
+
+.igg_HarvestFixedColumnPinButtonCssClass
+{
+	padding: 0px 3px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.igg_HarvestFixedColumnHeaderCSSClass
+{
+}
+
+.igg_HarvestFilterButton>td
+{
+	border-top:solid 0px Transparent;
+	border-right:solid 0px Transparent;
+	border-bottom:solid 0px Transparent;
+	border-left:solid 0px Transparent;
+}
+
+
+.igg_HarvestVirtualScrollTooltip
+{
+	background-color:#97462C;
+	font-size:10px;
+	border:solid 1px #B57C5F;
+	padding:3px;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+
+.igg_HarvestTopDragIndicator
+{
+      background-image:url("images/igg_TopDragIndicator.png");
+      background-repeat: no-repeat;
+      width:11px;
+      height:6px;
+      margin-top: 2px;
+      z-index: 100;
+}
+
+.igg_HarvestMiddleDragIndicator
+{
+      background-image:url("images/igg_MiddleDragIndicator.png");
+      background-repeat: repeat-y;
+      background-position: center;
+      width:11px;
+}
+
+.igg_HarvestBottomDragIndicator
+{
+      background-image:url("images/igg_BottomDragIndicator.png");
+      background-repeat: no-repeat;
+      width:11px;
+      height:6px;
+      position: absolute;
+      margin-top: -2px;
+      z-index: 100;
+}
+
+
+/*********************/
+/**  Summary styles **/
+/*********************/
+
+.igg_HarvestFilterRuleDropDown 
+{
+    font-family:verdana;
+    font-size:xx-small;
+    
+    background:#fff url(images/igg_SummaryDropDownBG.png) repeat-x scroll;
+    border:1px solid #83AFDF;
+    
+    /*Rounded corners*/
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    
+    /*Shadow*/
+    -moz-box-shadow: 0 4px 8px 0 #5A5A5A;
+    -webkit-box-shadow: 0 4px 8px 0 #5A5A5A;
+    box-shadow : 0 4px 8px 0 #5A5A5A; /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#5A5A5A')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#5A5A5A');
+    
+}
+
+.igg_HarvestFooterSummary
+{
+  border-bottom:1px solid #CBCBCB;
+  color:#444444;
+}
+
+/** Removed Property (Olga Kerchentseva mail 5/25/2010 )**/
+/*
+.igg_HarvestFooterSummariesCaption
+{
+    color:#000;
+    background:#88C2E8 url(images/igg_FooterSummariesBG.png) repeat-x scroll;
+} */
+
+.igg_HarvestSummaryDropDown
+{
+    font-family:verdana;
+    font-size:11px;
+    
+    background:#fff url(images/igg_SummaryDropDownBG.png) repeat-x scroll;
+    padding:12px;
+    border:1px solid #97472D;
+    
+    /*Rounded corners*/
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    
+    /*Shadow*/
+    -moz-box-shadow: 0 4px 8px 0 #5A5A5A;
+    -webkit-box-shadow: 0 4px 8px 0 #5A5A5A;
+    box-shadow : 0 4px 8px 0 #5A5A5A; /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#5A5A5A')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#5A5A5A');
+    
+}
+    .igg_HarvestSummaryDropDown input
+    {
+        margin-top:10px;
+        margin-right:3px;
+        width:55px;
+        
+        border:1px solid #97472D;
+        background: #97472D url(images/igg_ButtonsBG.png) repeat-x scroll;
+        color:#fff;
+        
+        -webkit-border-radius: 3px;    
+        -moz-border-radius: 3px;
+    }
+    
+.igg_HarvestSummaryDropDownItem
+{
+    cursor:default;
+}
+
+    .igg_HarvestSummaryDropDownItem img
+    {
+        margin-right:5px;
+        cursor:pointer;
+    }
+
+.igg_HarvestSummaryButton 
+{
+    background:none;
+    border:medium none;
+    cursor:pointer;
+    margin:0;
+    padding:0;
+}
+
+/******************/
+
+
+@media print{.igg_HarvestControl, .igg_HarvestControl div{width:auto !important; height:auto !important; overflow: visible !important;}}

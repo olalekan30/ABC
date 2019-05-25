@@ -1,0 +1,706 @@
+/**************************** VERTICAL (Default / No suffixes) *************************************************/
+.igdm_AppletiniControlVertical
+{
+	background-color:#F6FDF5;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_controlbackground.png);
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border-style:none;
+	border-width:0px;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+/*
+ Main Control CSS class when it's active 
+*/
+.igdm_AppletiniControlVerticalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_AppletiniControlVerticalDisabled
+{
+}
+
+
+/******************************** ROOT ELEMENTS ***************************************************/
+.igdm_AppletiniMenuGroupVerticalRoot
+{
+	background-color:Transparent;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_AppletiniMenuItemVerticalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 30px 6px 12px;
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemVerticalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igdm_AppletiniMenuItemVerticalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdm_AppletiniMenuItemVerticalRootSelected
+{
+	background-color:#C1DA48;
+	border:solid 1px #4F7600;
+}
+
+
+.igdm_AppletiniMenuItemVerticalRootActive
+{
+	background-color:#AED003;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px #4F7600;
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemVerticalRootHover
+{
+	background-color:#AED003;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px Transparent;
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemVerticalRootDisabled
+{
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_AppletiniMenuGroupVertical
+{
+	background-color:#FAFAFA;
+	border:solid 1px #BBBBBB;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_AppletiniMenuItemVertical
+{
+	background-attachment:scroll;
+	background-color: #FFFFFF none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	color:#000333;
+}
+
+
+.igdm_AppletiniMenuItemVerticalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_AppletiniMenuItemVerticalParent
+{
+}
+
+
+.igdm_AppletiniMenuItemVerticalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemVerticalSelected
+{
+	background-color:#D5E684;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #4F7600;
+	margin:0px;
+	color:#3E5B00;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemVerticalActive
+{
+	background-color:#D5E684;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #4F7600;
+	margin:0px;
+	color:#3E5B00;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemVerticalHover
+{
+	background-color:#D5E684;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px Transparent;
+	margin:0px;
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemVerticalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_AppletiniMenuItemVerticalSeparator
+{
+	background-color:Gainsboro;
+	border-style:none;
+	border-width:0px;
+	margin-top:0px;
+	padding:0px;
+	display: block;
+	height: 1px !important;
+	height: 1px;
+	width: 100%;
+	margin: 0px auto;
+	position: absolute;
+	clear: both;
+}
+
+
+.igdm_AppletiniMenuScrollContainerVertical
+{
+}
+
+
+.igdm_AppletiniMenuScrollerRootTop
+{
+}
+
+
+.igdm_AppletiniMenuScrollerRootBottom
+{
+}
+
+
+.igdm_AppletiniMenuScrollerTop
+{
+}
+
+
+.igdm_AppletiniMenuScrollerBottom
+{
+}
+
+
+/************************************************************************************************\
+
+********************** Horizontal / Suffixed with "Horizontal" *********************************
+
+\************************************************************************************************/
+.igdm_AppletiniControlHorizontal
+{
+	background-color:#F6FDF5;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_controlbackground.png);
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border-style:none;
+	border-width:0px;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+.igdm_AppletiniControlHorizontalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_AppletiniControlHorizontalDisabled
+{
+}
+
+
+/************** End Main Control Definitions ********************/
+/******************************** ROOT ELEMENTS - Group and Item ***************************************/
+/** Definitions for Root elements should be always before definitions of subElements **/
+.igdm_AppletiniMenuGroupHorizontalRoot
+{
+	background-color:#0008AA;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 6px 6px 12px;
+	float: left;
+	color:#000FFF;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalRootSelected
+{
+	background-color:#C1DA48;
+	border:solid 1px #4F7600;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalRootActive
+{
+	background-color:#AED003;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px #4F7600;
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalRootHover
+{
+	background-color:#AED003;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px Transparent;
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalRootDisabled
+{
+	float: left;
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_AppletiniMenuGroupHorizontal
+{
+	background-color:#FAFAFA;
+	border:solid 1px #BBBBBB;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_AppletiniMenuItemHorizontal
+{
+	background-attachment:scroll;
+	background-color: #FFFFFF none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	color:#000333;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_AppletiniMenuItemHorizontalParent
+{
+}
+
+
+.igdm_AppletiniMenuItemHorizontalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemHorizontalSelected
+{
+	background-color:#D5E684;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #4F7600;
+	margin:0px;
+	color:#3E5B00;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemHorizontalActive
+{
+	background-color:#D5E684;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #4F7600;
+	margin:0px;
+	color:#3E5B00;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemHorizontalHover
+{
+	background-color:#D5E684;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px Transparent;
+	margin:0px;
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_AppletiniMenuItemHorizontalSeparator
+{
+	background-color:Gainsboro;
+	border-style:none;
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	display: block;
+	width: 1px !important;
+	width: 1px;
+	height: 100%;
+}
+
+
+/* Scrolling container - DIV */
+.igdm_AppletiniMenuScrollContainerHorizontal
+{
+}
+
+
+/* Left scrolling element for root level items Horizontal orientation - DIV */
+.igdm_AppletiniMenuScrollerRootLeft
+{
+}
+
+
+/* Right scrolling element for root level items Horizontal orientation - DIV */
+.igdm_AppletiniMenuScrollerRootRight
+{
+}
+
+
+/* Left scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_AppletiniMenuScrollerLeft
+{
+}
+
+
+/* Right scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_AppletiniMenuScrollerRight
+{
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemHorizontalActive > a
+{
+	color:#3E5B00;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemVerticalDisabled > a
+{
+	color:#CCCCCC;
+}
+
+
+.igdm_AppletiniMenuItemVerticalSelected.igdm_AppletiniMenuItemVerticalParent
+{
+	background-color:#D5E684;
+	background-repeat:repeat-x;
+	background-position:right center ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	border:solid 1px #4F7600;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemVerticalSelected > a
+{
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemVerticalRootHover > a
+{
+	color:#3E5B00;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemHorizontalDisabled > a
+{
+	color:#CCCCCC;
+}
+
+
+.igdm_AppletiniMenuItemVerticalRootActive > a
+{
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemVerticalActive.igdm_AppletiniMenuItemVerticalParent
+{
+	background-color:#D5E684;
+	background-repeat:repeat-x;
+	background-position:right center ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	border:solid 1px #4F7600;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalRootHover > a
+{
+	color:#3E5B00;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemHorizontalHover > a
+{
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalHover.igdm_AppletiniMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:center top ;
+	border:solid 1px Transparent;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemVerticalHover > a
+{
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemVerticalRootSelected > a
+{
+	color:#3E5B00;
+}
+
+
+/*ListItem that is parent of menu items not in Root*/
+.igdm_AppletiniMenuItemVertical.igdm_AppletiniMenuItemVerticalParent
+{
+	background-repeat:no-repeat;
+	background-position:center right ;
+	background-image: url(images/igwdm_submenuindicator.gif);
+}
+
+
+.igdm_AppletiniMenuItemHorizontalRootSelected > a
+{
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemVerticalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemVerticalActive > a
+{
+	color:#3E5B00;
+}
+
+
+/*ListItem that is parent of menu items not in Root*/
+.igdm_AppletiniMenuItemHorizontal.igdm_AppletiniMenuItemHorizontalParent
+{
+	background-repeat:no-repeat;
+	background-position:center right ;
+	font-weight:normal;
+	margin:0px;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+
+.igdm_AppletiniMenuItemVerticalHover.igdm_AppletiniMenuItemVerticalParent
+{
+	background-color:#D5E684;
+	background-repeat:repeat-x;
+	background-position:right center ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	border:solid 1px Transparent;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalRootActive > a
+{
+	color:#3E5B00;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalActive.igdm_AppletiniMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:center right ;
+	border:solid 1px #4F7600;
+}
+
+
+.igdm_AppletiniMenuItemHorizontalSelected.igdm_AppletiniMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:center right ;
+	border:solid 1px #4F7600;
+}
+
+
+/* List Item (Li) */
+.igdm_AppletiniMenuItemHorizontalSelected > a
+{
+	color:#3E5B00;
+}
+
+

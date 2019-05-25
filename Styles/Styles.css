@@ -1,0 +1,39 @@
+﻿.wideContent
+{
+    width: 290px;
+    height: 130px;
+    font-family: Segoe UI;
+    padding: 10px;
+}
+.squareContent
+{
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+}
+.shortContent
+{
+    height: 105px;
+}
+ 
+.font14
+{
+    font-size: 14px;
+}
+ 
+.font18
+{
+    font-size: 18px;
+}
+ 
+.font22
+{
+    font-size: 22px;
+}
+ 
+.qsf-ib{
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: top;
+}

@@ -1,0 +1,181 @@
+body {
+    font-family: "trebuchet MS", tahoma, verdana, arial, helvetica, sans-serif;
+    font-size:large;
+    background-color: #eee;
+    margin: 0;
+}
+
+.errCls {
+    color: #FF0000;
+    font-size: .12em !important;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.infoCls {
+    color: #00689D;
+    font-size: .7em !important;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+a {
+    color: #0063DC;
+    text-decoration: none;
+    font-size: small;
+    padding: 1px;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+    background-color: #0063DC;
+}
+
+a img {
+    border: 0;
+}
+
+.content {
+    width: 350px;
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    border: 10px solid #ccc;
+    background-color: white;
+}
+
+#bookmarkheader{
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    color: black;
+}
+
+.login {
+    margin: auto;
+    text-align: left;
+}
+
+.prompt {
+    text-align: left;
+}
+
+#wrapper {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#content {
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 25%;
+    color: black;
+}
+
+.labels {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+.inputbox {
+    display: block;
+    float: left;
+    width: 230px;
+}
+
+.errorprompt {
+    font-weight: bold;
+    color: red;
+    visibility: hidden;
+}
+
+#LoginButton {
+    width: 63px;
+}
+
+.errorFB {
+    color: red;
+    background: none;
+    padding-left: 0;
+}
+
+.infoFB {
+    color: green;
+}
+
+.content p {
+    margin: 7px 0 13px;
+}
+
+.shortcuts {
+    border-top: 1px dashed #CCCCCC;
+    margin-top: 10px;
+    padding: 10px 0 0;
+}
+
+.content input {
+    font-size: 14px;
+}
+
+.companylogo {
+    margin: 0 0 10px;
+}
+
+.content h1 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.content span {
+    font-size: 0.8em;
+}
+
+span.accesskey {
+	font-size: 1em;
+	text-decoration:underline;
+}
+
+.subheader {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.othersignin {
+	height: 24px;
+}
+
+.othersignin a{
+	padding: 0;
+}
+
+.othersignin span{
+	float: left;
+	margin: 3px 0 0 0;
+	font-size: 0.9em;
+	height: 24px;
+	width: 100px;
+}
+
+.goog, .yhoo{
+	background-image: url('../images/login-sprite.gif');
+	float: left;
+	margin: 0 3px 0 0 !important;
+	border: 1px solid #DCDCDC;
+	cursor: pointer;
+}
+
+.goog {
+	background-position: 3px 0;
+	width: 24px !important;
+}
+
+.yhoo {
+	background-position: -63px 0;
+	width: 35px !important;
+}	

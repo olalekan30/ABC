@@ -1,0 +1,152 @@
+.ig_TrendyControl
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	color:Black;
+}
+
+
+.ig_TrendyItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_TrendyButton
+{
+	cursor:hand;
+}
+
+
+.ig_TrendyButtonHover
+{
+}
+
+
+.ig_TrendyButtonPressed
+{
+}
+
+
+.ig_TrendyButtonDisabled
+{
+}
+
+
+.ig_TrendyHover
+{
+}
+
+
+.ig_TrendySelected
+{
+}
+
+
+.ig_TrendyDisabled
+{
+}
+
+
+.ig_TrendyHeader
+{
+}
+
+
+.ig_TrendyFooter
+{
+}
+
+
+.ig_TrendyEditWithButtons
+{
+}
+
+
+.ig_TrendyEdit
+{
+}
+
+
+.ig_TrendyEditInContainer
+{
+}
+
+
+.ig_TrendyAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_TrendyDropDown
+{
+}
+
+
+.ig_TrendyEditSelected
+{
+}
+
+
+.ms-WPBody .ig_TrendyControl TD
+{
+	border-bottom:none;
+	background-color:transparent;
+	font-size:xx-small;
+}
+.ms-WPBody .ig_TrendyControl TD
+{
+	background-color:inherit;
+	font:inherit;
+}
+.ms-WPBody .ig_TrendyControl TABLE
+{
+	font-size:xx-small;
+	border-collapse:separate;
+}
+.ms-WPBody .ig_TrendyControl TABLE
+{
+	font:inherit;
+}
+.ms-WPBody .igdw_TrendyControl TD
+{
+	background-color:white;
+}
+.ms-WPBody .igmc_TrendyControl TD
+{
+	border:none;
+	background-color:transparent;
+	font-size:xx-small;
+}
+.ms-WPBody .igmc_TrendyControl TD
+{
+	border:inherit;
+	background-color:inherit;
+	font:inherit;
+}
+.ms-WPBody .igmc_TrendyControl TABLE
+{
+	font-size:xx-small;
+}
+.ms-WPBody .igmc_TrendyControl TABLE
+{
+	font:inherit;
+}
+.ms-WPBody .igte_TrendyEditWithButtons TD
+{
+	border-bottom:none;
+	background-color:transparent;
+	font-size:1px;
+}
+.ms-WPBody .igte_TrendyEditWithButtons TABLE
+{
+	font-size:1px;
+}

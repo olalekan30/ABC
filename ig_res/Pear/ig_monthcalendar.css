@@ -1,0 +1,179 @@
+.igmc_PearControl
+{
+	background-color: #FFFFFF;
+	border:1px solid #507601;
+	width: 225px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+}
+
+.igmc_PearDOW
+{
+	background-color: #EFFE57;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_dowbg.gif);
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom:solid 1px #D8D8D8;
+	padding: 0px ;
+	text-align:center;
+	font-weight: bold;
+}
+
+.igmc_PearNextPrev
+{
+	margin: 0px;
+	padding: 0px;
+	font-size:xx-small;
+	color: #FFFFFF;
+	padding: 0px 3px;
+}
+
+.igmc_PearHoverNextPrev
+{
+	cursor: pointer;
+	color: #FF9933;
+}
+
+.igmc_PearPressedNextPrev
+{
+}
+
+.igmc_PearFooter
+{
+	background-color: #F3F6F6;
+	border-top: 1px solid #D8D8D8;
+	font-size:xx-small;
+	text-align:center;
+	
+}
+
+.igmc_PearHoverFooter
+{
+	background-color: #E8E8E8;
+	cursor: pointer;
+}
+
+.igmc_PearPressedFooter
+{
+	background-color: #D8D8D8;
+}
+
+.igmc_PearHeader
+{
+	background-color: #CBDC9C;
+	font-size:10px;
+	border-bottom: 1px solid #507601;
+}
+
+.igmc_PearMonthYear
+{
+	font-size:10px;
+	font-weight:bold;
+	padding:0px 2px;
+	color: #000000;
+}
+
+.igmc_PearPressedMonthYear
+{
+	color: #FFFFFF;
+}
+
+.igmc_PearHoverMonthYear
+{
+	cursor: pointer;
+	color: #FFFFFF;
+	
+}
+
+.igmc_PearDay
+{
+	background-color:#FFFFFF;
+	font-size:xx-small;
+	text-align:center;
+	border: 1px solid #FFFFFF;
+}
+
+.igmc_PearWeekNumber
+{
+	border: 1px solid #F5F5F5;
+	background-color: #F5F5F5;
+	font-weight: bold;
+}
+
+.igmc_PearWeekendDay
+{
+	background-color:#FAFAFA;
+	border: 1px solid #FAFAFA;
+}
+
+.igmc_PearOtherMonthDay
+{
+	color:#AAAAAA;
+	background-image: none;
+}
+
+.igmc_PearTodayDay
+{
+	background-color: #D1DCDC;
+	color: #000000;
+	font-weight: bold;
+}
+
+.igmc_PearSelectedDay
+{
+	background-color: #DDDDDD;
+	font-weight:bold;
+}
+
+.igmc_PearFocusDay
+{
+	background-color: #F0F5E2;
+	color: #000000;
+	border-color: #4F7600;
+}
+
+.igmc_PearHoverDay
+{
+	background-color: #4F7600;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+
+
+.igmc_PearDisabledDay
+{
+	color:#EEE;
+}
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_PearList
+{
+	background:#FFFFFF;
+	border:1px solid #666666;
+}
+
+.igmc_PearItem
+{
+	font-size:8pt;
+	background:#F7F7F7;
+	text-align: center;
+}
+
+.igmc_PearSelectedItem
+{
+	background-color: #4F7600;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_PearHoverItem
+{
+	background-color: #D1DCDC;
+	color: #000000;
+	cursor: pointer;
+}

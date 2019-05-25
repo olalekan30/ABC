@@ -1,0 +1,699 @@
+BODY
+{
+	font-size: 8pt;
+	font-family: Verdana;
+	background-color: white;
+	margin: 16px;
+	margin-left:20px;
+	padding: 0px;
+	background-image:url(images/masterBG.jpg); 
+	background-position:top; 
+	background-repeat:repeat-x; 
+}
+
+.footer
+{
+	font-size: 18px;
+	color: #666666;
+	font-family: Verdana, helvetica, tahoma;
+	line-height:18px;
+}
+.tdHeader
+{
+	font-size: 8pt;
+	color: #333333;
+	font-family: Verdana, Helvetica, Tahoma;
+}
+
+.border
+{
+	border-right: 1px solid;
+	border-top: 1px solid;
+	font-size: 8pt;
+	border-left: 1px solid;
+	color: white;
+	border-bottom: 1px solid;
+	font-family: Verdana;
+	background-color: #396799;
+}
+TD
+{
+	font-size: 8pt;
+	font-family: Verdana, helvetica, Tahoma;
+}
+
+
+.header
+{
+	font-size: 8pt;
+	color: #333333;
+	font-weight:bold;
+}
+
+.labelStyle
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 8pt;
+	font-family: Verdana;
+	height: 20px;
+}
+
+.columnListbox
+{
+	border-right: #666666 1px solid;
+	border-top: #666666 1px solid;
+	border-left: #666666 1px solid;
+	border-bottom: #666666 1px solid;
+}
+
+.error
+{
+	font-weight: normal;
+	font-size: 8pt;
+	color: #cc0000;
+	font-family: verdana;
+	text-decoration: none;
+}
+/* Moved this out to ApplicatoinStyling (StyleSetName="SamplesBrowser")
+.descriptionPanel 
+{
+	FONT-SIZE: x-small;
+	font-weight:normal;
+	BACKGROUND-COLOR: #FAFAFA;
+	width:100%;
+	padding:16px;
+	color: black;
+	cursor:default;
+}
+.descriptionPanelContent
+{
+	border: solid 1px #636363;
+	BACKGROUND-COLOR: #FDFDFD;
+	background-image:url(images/panel_bg.jpg);
+	background-repeat:repeat-x;
+	text-align:left;
+	line-height:18px;
+}
+.descriptionPanelContent DIV
+{
+    overflow:auto !important;
+    height:200px !important;
+}
+.descriptionPanelHeader 
+{ 
+	padding:2px 0px 1px 3px;
+	border-left: #636363 1px solid; 
+	border-right: #636363 1px solid; 
+	height:28px;
+    font-weight: bold;
+    font-size: 9pt; 
+    width: 100%; 
+    color: white;
+    background-repeat: repeat-x; 
+    font-family: Lucida Sans;
+    background-image:url(images/onyxBar.gif);
+}
+*/
+.content
+{
+	/*background-color:F9F9F9; */
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #FF0000;
+}
+
+.chartGalleryPanel
+{
+	float:left;	
+}
+.QuickTip{
+    position:absolute;
+    width:300px;
+    height:175px;
+    background-color:#F1F1F1;
+    padding:10px;
+    padding-top:20px;
+    border:solid 1px #DEDEDE;
+    font-family: calibri, verdana, arial;
+    font-size:11pt;
+    left:50%;
+    top:100px; 
+    margin-left:-150px;
+    z-index:1001;
+}
+.QuickTip:hover
+{
+    border:solid 1px silver;
+}
+.QuickTipCloser{
+    position:absolute;
+    top:10px;
+    right:10px;
+    font-size: 8pt;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#AEAEAE;
+}
+.QuickTip:hover A, .QuickTipCloser:hover{
+    font-weight:bold;
+    text-decoration:underline;
+    color:#000000;
+}
+.QuickTipFilter
+{
+    filter:alpha(opacity=0);
+    opacity=0;
+    z-index:1000;
+    background-color:#555555;
+}
+
+
+.normalText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: black;
+	line-height: 20px;
+	text-align: left;
+}
+
+ul
+{
+	padding-top: 0px;
+}
+
+li
+{
+	list-style: none;
+	padding-left: -30px;
+	font-size: 11px;
+	
+	padding-top: 0px;
+}
+
+.headerText
+{
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	font-weight: bold;
+	color: #415E04;
+}
+
+.themeBox
+{
+	padding-left: 665px;
+	padding-top: 20px;
+	background-color: red;
+}
+
+/* WebSplitter */
+.splitterPane
+{
+	border-style: none;
+	background-color: Transparent;
+}
+
+
+/* Navigation Menu  */
+.menuGroup
+{
+	font-weight: bold;
+	padding-top: 5px;
+	cursor: hand;
+}
+.menuItemsContainer
+{
+	display: none;
+}
+
+.menuItemRow
+{
+	border-bottom: 1px solid rgb(204, 204, 204);
+	padding-bottom: 10px;
+}
+
+.menuItemLink
+{
+	font-size: 10px;
+	line-height: 14px;
+}
+
+
+
+.sampleTitle
+{
+
+	font-weight: bold;
+	font-size:18px;
+	color:white;
+	margin-top:5px;
+
+
+}
+
+.sampleDescription
+{
+
+   line-height:18px;
+   margin-top:15px;
+}
+
+
+/* Sample Overview Page 
+.sampleNotes
+{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	color: #578E05;
+	background-color: #F4F4F4;
+	padding: 3px 3px 3px 3px;
+}
+
+.sampleNotesWrapper
+{
+	margin-top: 20px;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+*/
+.buttonContainer
+{
+	margin-top: 10px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+#btnViewSample
+{
+	height: 26px;
+	width: 98px;
+	background-image: url(images/aikido/btnRunSample.jpg);
+	margin-right: 12px;
+	float: right;
+	cursor: hand;
+}
+
+#btnViewSource
+{
+	height: 26px;
+	width: 107px;
+	background-image: url(images/aikido/btnViewSource.jpg);
+	cursor: hand;
+	float: right;
+}
+
+/* Run Sample Popup Page */
+.popupHeader
+{
+	height: 95px;
+	background-image: url(images/aikido/popupHeaderBGtile.jpg);
+}
+
+.popupHeaderTexture
+{
+	background-image: url(images/aikido/popupHeaderBG.jpg);
+	height: 95px;
+	width: 754px;
+	left: 0px;
+	top: 0px;
+}
+.popupBody
+{
+	background-image: url(images/aikido/popupBodyBGtile.jpg);
+	background-repeat: repeat-x;
+	border-top: 1px solid #000000;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 29px;
+}
+
+.tabWrapper
+{
+	position: absolute;
+	top: 73px;
+	width: 800px;
+	height: 22px;
+	right: 0px;
+}
+
+.samplePopupControlName
+{
+	font-weight: bold;
+	font-size: 18px;
+	position: absolute;
+	left: 29px;
+	top: 27px;
+}
+/*
+.samplePopupDescription
+{
+	display:none;
+	position: absolute;
+	left: 31px;
+	top: 57px;
+	font-weight: bold;
+}
+
+*/
+.sampleNotes
+{
+	color: #578E05;
+	background-color: #F4F4F4;
+	padding: 3px 3px 3px 3px;
+}
+
+.sampleNotesWrapper
+{
+	margin-top: 20px;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+
+.buttonContainer
+{
+	margin-top: 10px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+#tabSample
+{
+	height: 22px;
+	width: 88px;
+	background-image: url(images/aikido/tabSampleNormal.jpg);
+	margin-right: 12px;
+	float: right;
+	cursor: hand;
+}
+
+#tabSource
+{
+	height: 22px;
+	width: 88px;
+	background-image: url(images/tabCodeNormal.jpg);
+	cursor: hand;
+	float: right;
+	margin-right: 15px;
+}
+
+a.tabSample:link
+{
+	text-decoration: none;
+	height: 22px;
+	width: 88px;
+	background-image: url(images/tabSampleSelected.jpg);
+	cursor: hand;
+	float: right;
+	margin-right: 15px;
+}
+
+#tabSample:hover
+{
+	background-image: url(images/tabSampleHover.jpg);
+}
+
+.tabSampleSelected 
+{
+	background-image: url(images/tabSampleSelected.jpg);
+}
+
+.tabSourceSelected 
+{
+	background-image: url(images/tabSourceSelected.jpg);	
+}
+
+a.tabSource:link
+{
+	text-decoration: none;
+	height: 22px;
+	width: 88px;
+	background-image: url(images/tabCodeNormal.jpg);
+	cursor: hand;
+	float: right;
+	margin-right: 15px;
+}
+
+#tabSource:hover
+{
+	background-image: url(images/tabCodeHover.jpg);
+}
+
+
+.dwConfirmationDialog #TimeLabel {
+	position: absolute;
+	width: 125px;
+	height: 75px;
+	line-height: 40px;
+	left: 200px;
+	top: 41px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: normal;
+	text-align: left;
+}
+.dwConfirmationDialog #lblCurrentTime {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position: absolute;
+	height: 30px;
+	width: 98px;
+	left: 106px;
+	top: 58px;
+	text-align: left;
+}
+.dwConfirmationDialog #TimeIcon {
+	position: absolute;
+	height: 120px;
+	width: 101px;
+	left: 0px;
+	top: 0px;
+}
+.dwConfirmationDialog #container {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	width: 450px;
+	height: 200px;
+	position: relative;
+}
+.dwConfirmationDialog #ResetButton {
+	position: absolute;
+	left: 360px;
+	top: 51px;
+	cursor: Hand;
+}
+.dwConfirmationDialog #wrapper {
+	text-align: center;
+	width: 100%;
+}
+
+/******************************
+ * WebGrid DataBinding Sample 
+ ******************************/
+.wgDataBind
+{
+	margin-top: 25px;
+}
+
+.wgDataBind #Icon 
+{
+	float: left;
+}
+
+.wgDataBind #ComboBox
+{
+	float: left;
+	margin-left: 5px;
+	margin-top: 18px;
+}
+
+.wgDataBind #DataGridWrapper 
+{
+	clear: both;
+	margin-top: 5px;
+}
+
+.wdwClientEvents 
+{
+	position: relative;
+}
+
+.wdwClientEvents #EventOptions 
+{
+	position: absolute;
+	width: 440px;
+	height: 185px;
+	left: 320px;
+	top: 250px;
+}
+
+.wdwClientEvents #EventCol1 
+{
+	float: left;
+	width: 203px;
+}
+
+.wdwClientEvents #EventCol2
+{
+	
+}
+
+.wdwClientEvents #eventListWrapper 
+{
+	position: absolute;
+	top: 10px;
+	width: 400px;
+	height: 185px;
+	left: 325px;
+	border: 1px solid #999999;
+	padding: 5px;
+	background: #ffffff; 
+}
+.wdwClientEvents #eventList 
+{
+	line-height: 14px; 
+	overflow: auto;	
+	background: #F4F4F4; 
+	font-family: Verdana; 
+	font-size: 10px;
+	padding: 5px;
+	width: 390px;
+	height: 175px;	
+}
+
+.wdwClientEvents #ClearEventsButton 
+{
+	position: absolute;
+	left: 635px;
+	top: 215px;
+	width: 98px;
+	height: 24px;
+	z-index: 10;
+}
+
+.wdwClientEvents #ShowDialogButton 
+{
+	position: absolute;
+	left: 527px;
+	top: 215px;
+	width: 98px;
+	height: 24px;
+	z-index: 10;
+}
+
+/* first duplicate found*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sample Overview Page 
+.sampleTitle
+{
+
+}
+
+.sampleDescription
+{
+	margin-left: 3px;
+	width:800px;
+}*/
+.sampleNotes
+{
+	color: #578E05;
+	background-color: #F4F4F4;
+	padding: 3px 3px 3px 3px;
+	width:800px;
+}
+
+
+
+#btnViewSample
+{
+
+}
+
+#btnViewSource
+{
+
+}
+
+/* Run Sample Popup Page */
+.popupHeader
+{
+}
+
+.popupHeaderTexture
+{
+}
+.popupBody
+{
+	width:800px;
+}
+.tabWrapper
+{
+}
+
+.samplePopupControlName
+{
+	width:400px;
+}
+
+.samplePopupDescription
+{
+	width:800px;
+}
+.sampleNotes
+{
+}
+
+.sampleNotesWrapper
+{
+}
+
+.buttonContainer
+{
+}
+
+#tabSample
+{
+}
+
+#tabSource
+{
+}
+
+a.tabSample:link
+{
+
+}
+
+a.tabSample:hover
+{
+}
+
+a.tabSource:link
+{
+}
+
+a.tabSource:hover
+{
+}

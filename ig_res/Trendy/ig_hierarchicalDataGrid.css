@@ -1,0 +1,134 @@
+﻿.ighg_TrendyExpandButton
+{
+	cursor: pointer;
+	cursor: hand;
+	padding-left: 5px;
+}
+
+TBODY>TR>TD.ighg_TrendyExpandableArea
+{
+	padding: 0px 0px 0px 25px;
+}
+
+.ighg_TrendyExpansionColumn
+{
+	width: 25px;
+	padding: 0 !important;
+}
+
+.ighg_TrendyExpansionColumnHeader
+{
+	width: 25px;
+}
+
+.ighg_TrendyExpansionColumnFooter
+{
+	width: 25px;
+}
+
+
+/* START -- GroupBy CSS Classes */
+.ighg_TrendyGroupIndentHeaderCell
+{
+}
+
+TBODY>TR.ighg_TrendyGroupedRow>TD
+{
+	background:#FFFFFF url(images/ighg_GroupedRowBg.png) bottom repeat-x;
+}
+
+
+TBODY>TR>TD.ighg_TrendyGroupIndentCell
+{
+	border-right: 1px solid #D8D8D8;
+}
+
+.ighg_TrendyGroupArea
+{
+	background-color: #F3F4F3;
+	border-bottom: 1px solid #4F7600;
+	padding: 10px;
+}
+
+.ighg_TrendyGroupedColumn
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnBg.png) repeat-x;
+	height: 16px;
+	padding: 3px 5px 0px 10px;
+	color: #FFFFFF;
+}
+.ighg_TrendyGroupedColumnRightEdgeEnd
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeEndBg.gif) no-repeat;		
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+.ighg_TrendyGroupedColumnRightEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeBg.png) no-repeat;
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_TrendyGroupedColumnLeftEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnLeftEdgeBg.gif) no-repeat;
+	width: 9px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_TrendyGroupedBand
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-left: 1px solid #507601;
+	height: 16px;
+	padding: 3px 0px 0px 10px;
+	color: #FFFFFF;
+}
+.ighg_TrendyGroupedBandRightEdge
+{		
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-right: 1px solid #4F7600;
+	width: 10px;
+	height: 16px;
+	padding: 3px 0px 0px 0px;
+}
+
+.ighg_TrendyColumnGroupingTopDragIndicator
+{
+	background-image:url(images/ighg_TopDragIndicator.gif);
+	background-repeat: no-repeat;
+	width:5px; 
+	height:3px;
+	z-index: 100;
+}
+
+.ighg_TrendyColumnGroupingMiddleDragIndicator
+{
+      background-image:url(images/ighg_MiddleDragIndicator.gif);
+      background-repeat: repeat-y;
+      background-position: center;
+      width:3px; 
+}
+
+.ighg_TrendyColumnGroupingBottomDragIndicator
+{
+      background-image:url(images/ighg_BottomDragIndicator.gif);
+      background-repeat: no-repeat;
+      width:5px; 
+      height:3px;
+      position: absolute;
+      z-index: 100;   
+}
+/* END -- GroupBy CSS Classes */
+
+@media print{.ighg_TrendyControl, .ighg_TrendyControl div{width:auto !important; height:auto !important; overflow: visible !important;}}

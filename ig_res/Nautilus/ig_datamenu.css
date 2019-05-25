@@ -1,0 +1,679 @@
+/**************************** VERTICAL (Default / No suffixes) *************************************************/
+.igdm_NautilusControlVertical
+{
+	background-color:#F6F9FB;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border-style:none;
+	border-width:1px;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+/*
+ Main Control CSS class when it's active 
+*/
+.igdm_NautilusControlVerticalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_NautilusControlVerticalDisabled
+{
+}
+
+
+/******************************** ROOT ELEMENTS ***************************************************/
+.igdm_NautilusMenuGroupVerticalRoot
+{
+	background-color:Transparent;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_NautilusMenuItemVerticalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 30px 6px 12px;
+	color:#333333;
+}
+
+
+.igdm_NautilusMenuItemVerticalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootSelected
+{
+	background-color:#FF6600;
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootActive
+{
+	background-color:Transparent;
+	background-image:none;
+	border:solid 1px #98A7BF;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootHover
+{
+	background-color:#4B709B;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px Transparent;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootDisabled
+{
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_NautilusMenuGroupVertical
+{
+	background-color:White;
+	border:solid 1px #CCCCCC;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_NautilusMenuItemVertical
+{
+	background-attachment:scroll;
+	background-color: #FFFFFF none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	color:#000333;
+}
+
+
+.igdm_NautilusMenuItemVerticalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_NautilusMenuItemVerticalParent
+{
+}
+
+
+.igdm_NautilusMenuItemVerticalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemVerticalSelected
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px #24406F;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemVerticalActive
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px #24406F;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemVerticalHover
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px Transparent;
+	margin:0px;
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemVerticalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_NautilusMenuItemVerticalSeparator
+{
+	background-color:#CCCCCC;
+	border-style:none;
+	border-width:0px;
+	margin-top:0px;
+	padding:0px;
+	display: block;
+	height: 1px !important;
+	height: 1px;
+	width: 100%;
+	margin: 0px auto;
+	position: absolute;
+	clear: both;
+}
+
+
+.igdm_NautilusMenuScrollContainerVertical
+{
+}
+
+
+.igdm_NautilusMenuScrollerRootTop
+{
+}
+
+
+.igdm_NautilusMenuScrollerRootBottom
+{
+}
+
+
+.igdm_NautilusMenuScrollerTop
+{
+}
+
+
+.igdm_NautilusMenuScrollerBottom
+{
+}
+
+
+/************************************************************************************************\
+
+********************** Horizontal / Suffixed with "Horizontal" *********************************
+
+\************************************************************************************************/
+.igdm_NautilusControlHorizontal
+{
+	background-color:#F6F9FB;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border-style:none;
+	border-width:0px;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+.igdm_NautilusControlHorizontalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_NautilusControlHorizontalDisabled
+{
+}
+
+
+/************** End Main Control Definitions ********************/
+/******************************** ROOT ELEMENTS - Group and Item ***************************************/
+/** Definitions for Root elements should be always before definitions of subElements **/
+.igdm_NautilusMenuGroupHorizontalRoot
+{
+	background-color:#0008AA;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 6px 6px 12px;
+	float: left;
+	color:#000FFF;
+}
+
+
+.igdm_NautilusMenuItemHorizontalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootSelected
+{
+	background-color:#FF6600;
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootActive
+{
+	background-color:#4B709B;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootHover
+{
+	background-color:Transparent;
+	background-image:none;
+	border:solid 1px #98A7BF;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootDisabled
+{
+	float: left;
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_NautilusMenuGroupHorizontal
+{
+	background-color:White;
+	border:solid 1px #CCCCCC;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_NautilusMenuItemHorizontal
+{
+	background-attachment:scroll;
+	background-color: #FFFFFF none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	color:#000333;
+}
+
+
+.igdm_NautilusMenuItemHorizontalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_NautilusMenuItemHorizontalParent
+{
+	font-weight:normal;
+	margin:0px;
+}
+
+
+.igdm_NautilusMenuItemHorizontalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemHorizontalSelected
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px #24406F;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemHorizontalActive
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px #24406F;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemHorizontalHover
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px Transparent;
+	margin:0px;
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemHorizontalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_NautilusMenuItemHorizontalSeparator
+{
+	background-color:#CCCCCC;
+	border-style:none;
+	border-width:0px;
+	margin-top:0px;
+	padding:0px;
+	display: block;
+	width: 1px !important;
+	width: 1px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+
+/* Scrolling container - DIV */
+.igdm_NautilusMenuScrollContainerHorizontal
+{
+}
+
+
+/* Left scrolling element for root level items Horizontal orientation - DIV */
+.igdm_NautilusMenuScrollerRootLeft
+{
+}
+
+
+/* Right scrolling element for root level items Horizontal orientation - DIV */
+.igdm_NautilusMenuScrollerRootRight
+{
+}
+
+
+/* Left scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_NautilusMenuScrollerLeft
+{
+}
+
+
+/* Right scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_NautilusMenuScrollerRight
+{
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemHorizontalDisabled > a
+{
+	color:#BBBBBB;
+}
+
+
+.igdm_NautilusMenuItemHorizontalSelected > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootActive > a
+{
+	color:#333333;
+}
+
+
+.igdm_NautilusMenuItemVerticalActive.igdm_NautilusMenuItemVerticalParent
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:center right ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootSelected > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+
+.igdm_NautilusMenuItemHorizontalActive > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemHorizontalSelected.igdm_NautilusMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:center right ;
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemVerticalHover > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+
+.igdm_NautilusMenuItemVerticalSelected.igdm_NautilusMenuItemVerticalParent
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:center right ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootHover > a
+{
+	color:#333333;
+}
+
+
+.igdm_NautilusMenuItemHorizontalHover.igdm_NautilusMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:center top ;
+	border:solid 1px Transparent;
+}
+
+
+.igdm_NautilusMenuItemHorizontal.igdm_NautilusMenuItemHorizontalParent
+{
+	background-repeat:no-repeat;
+	background-position:center right ;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootHover > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemVerticalHover.igdm_NautilusMenuItemVerticalParent
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:center right ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	border:solid 1px Transparent;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemVerticalDisabled > a
+{
+	color:#BBBBBB;
+}
+
+
+.igdm_NautilusMenuItemHorizontalHover > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemVertical.igdm_NautilusMenuItemVerticalParent
+{
+	background-repeat:no-repeat;
+	background-position:center right ;
+	background-image: url(images/igwdm_submenuindicator.gif);
+}
+
+
+.igdm_NautilusMenuItemHorizontalActive.igdm_NautilusMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:center right ;
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemVerticalActive > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootSelected > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootActive > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemVerticalSelected > a
+{
+	color:White;
+}
+
+

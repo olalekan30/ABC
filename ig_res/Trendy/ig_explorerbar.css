@@ -1,0 +1,249 @@
+ .igeb_TrendyControl {
+	background-color:transparent;
+	color:#000000;
+	font-size: xx-small;
+	font-family: Segoe UI, Verdana, Helvetica, sans-serif;
+	overflow-x:hidden;
+	border: solid 1px #0065A8;
+	border-top-width: 0px;
+	
+	/* IE6 fix to remove control's scroll bar */
+	_overflow:hidden!important;
+}
+
+.igeb_TrendyGroupLink
+{
+	display:block;
+	text-decoration:none;
+	color:inherit;
+	margin-bottom:0px;
+	padding-bottom:0px;
+    
+    /* Used to give padding to group icons */
+    padding-left:6px
+}
+
+.igeb_TrendyHolder 
+{
+}
+
+.igeb_TrendyItemImage 
+{
+    padding-top:5px;
+	padding-left:0px;
+	padding-right:5px;
+}
+
+.igeb_TrendyGroup {
+
+	display:block;
+	height:30px;
+	vertical-align:middle;
+	overflow:hidden;
+	line-height:30px;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_GroupBg.png);
+	color:#FFFFFF;
+}
+
+.igeb_TrendyGroup a:visited
+{
+
+	color:#FFFFFF;
+}
+
+.igeb_TrendyGroup a
+{
+
+	color:#FFFFFF;
+}
+
+
+.igeb_TrendyGroupHover {
+	background-position:0px -30px;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_GroupBg.png);
+	color:#FFFFFF;
+}
+
+.igeb_TrendyGroupHover a:visited {
+
+	color:#FFFFFF;
+}
+
+.igeb_TrendyGroupHover a {
+
+	color:#FFFFFF;
+}
+
+.igeb_TrendyGroupLabel 
+{
+	margin-left:5px;
+	padding-left:5px;
+
+	font-size:12px;
+	font-weight:bold;
+	font-family: Segoe UI, Verdana, Sans-Serif;	
+
+	text-decoration: none;
+}
+
+.igeb_TrendyItemLink
+{
+	display:block;
+	text-decoration:none;	
+	color:#333333;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.igeb_TrendyGroupSelected 
+{
+	background-position:0px -30px;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_GroupBg.png);
+	color:#FFFFFF;
+}
+
+.igeb_TrendyGroupSelected a:visited
+{
+	color:#FFFFFF;
+}
+
+.igeb_TrendyGroupSelected a
+{
+	color:#FFFFFF;
+}
+
+.igeb_TrendyGroupActive 
+{
+    background-position:0px -30px;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_GroupBg.png);
+	color:#FFFFFF;
+}
+
+.igeb_TrendyGroupActive a:visited
+{
+    color:#FFFFFF;
+}
+
+.igeb_TrendyGroupActive a
+{
+    color:#FFFFFF;
+}
+
+
+.igeb_TrendyGroupDisabled 
+{
+    background-position:0px -60px;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_GroupBg.png);
+	color:Gray;
+}
+
+.igeb_TrendyItem
+{
+
+	background-color: #FFFFFF;
+    line-height: 22px;
+}
+    /* IE 7 fix to icon bad alignment*/
+    .igeb_TrendyItem  ,.igeb_TrendyItemActive ,.igeb_TrendyItemSelected 
+    {
+       min-height:30px!important;
+       
+       /* IE6 specific fix */
+       _height:30px;
+    }
+
+.igeb_TrendyItemLabel
+{
+	display:block;
+	font-size:12px;
+	font-weight:normal;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+}
+
+.igeb_TrendyGroupExpanderImage
+{
+	float: right;
+	margin-right: 5px;
+	margin-top:5px;
+}
+
+.igeb_TrendyItemImage {	
+	vertical-align: middle;
+}
+
+.igeb_TrendyItemSelected {
+	background-position:top;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_ItemSelectedBg.png);
+	background-color:#119A48;
+	color:#FFFFFF;
+}
+
+.igeb_TrendyItemActive 
+{
+    background-position:top;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_ItemSelectedBg.png);
+	background-color:#119A48;
+	color:#FFFFFF;
+}
+
+.igeb_TrendyItemHover {	
+	background-position:top;
+	background-repeat:repeat-x;
+	background-image:url(images/igeb_ItemSelectedBg.png);
+	background-color:#119A48;
+	/*color:#FFFFFF;*/
+}
+
+.igeb_TrendyItemParent 
+{
+	
+}
+
+.igeb_TrendyItemDisabled
+{
+    
+}
+    /* IE 7 Disabled item fix */
+
+    .igeb_TrendyItemDisabled a:visited, .igeb_TrendyItemDisabled a
+    {
+        color: Gray;
+    }
+    
+    
+.igeb_TrendyGroupContents {
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.igeb_TrendyItemContents 
+{
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+
+.igeb_TrendyItemHolder {
+	
+
+}
+
+
+
+.igeb_TrendyItemHolder img {
+	vertical-align: middle;
+}
+

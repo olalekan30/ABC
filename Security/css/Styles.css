@@ -1,0 +1,94 @@
+div.demo-container {
+    padding-bottom: 0;
+}
+ 
+.size-custom {
+    max-width: 874px;
+}
+ 
+.controlsWrapper {
+    overflow: hidden;
+}
+ 
+.RadGrid {
+    float: left;
+    margin: 0 30px 30px 0;
+}
+ 
+.RadDataForm {
+    width: 420px;
+    padding-bottom: 30px;
+}
+ 
+div.RadDataForm.rdfLeftAligned .rdfLabel {
+    width: 40%;
+    max-width: 150px;
+}
+ 
+.rdfFieldValue {
+    width: 55% !important;
+}
+ 
+/*for ie7 only*/
+* + html div.RadDataForm {
+    width: 418px;
+}
+ 
+* + html div.RadDataForm .rdfFieldset {
+    width: 375px;
+}
+ 
+* + html .riTextBox {
+    width: 95% !important;
+}
+ 
+* + html .demo-container {
+    padding-bottom: 30px;
+}
+.size-custom {
+    width: 569px;
+    margin: 0 8px 0 0;
+    margin: auto;
+}
+ 
+.demo-container fieldset {
+    width: 550px;
+    background: url(images/fldBgr.gif) repeat-x #a0b3be;
+    padding: 0 10px 40px 0;
+}
+ 
+.profileData {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+}
+ 
+.profile-img {
+    margin: 30px 30px 0 20px;
+}
+ 
+.profileData {
+    width: 345px;
+    padding: 40px 0 0;
+}
+ 
+.profileData h3 {
+    font-size: 36px;
+    color: #647d8e;
+    font-weight: normal;
+    margin: 0 0 25px 0;
+    padding: 0 0 5px 0;
+    background: url(images/h3bgr.png) left bottom repeat-x;
+}
+ 
+.profileData .inputWrapper {
+    text-align: right;
+    margin: 0 0 10px 0;
+}
+ 
+.clearer {
+    height: 1px;
+    margin-top: -1px;
+    clear: both;
+}

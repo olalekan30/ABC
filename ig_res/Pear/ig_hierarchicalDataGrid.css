@@ -1,0 +1,132 @@
+﻿.ighg_PearExpandButton
+{
+	cursor: pointer;
+	cursor: hand;
+	padding-left: 5px;
+}
+
+TBODY>TR>TD.ighg_PearExpandableArea
+{
+	padding: 0px 0px 0px 25px;
+}
+
+.ighg_PearExpansionColumn
+{
+	width: 25px;
+	padding: 0 !important;
+}
+
+.ighg_PearExpansionColumnHeader
+{
+	width: 25px;
+}
+
+.ighg_PearExpansionColumnFooter
+{
+	width: 25px;
+}
+
+
+/* START -- GroupBy CSS Classes */
+.ighg_PearGroupIndentHeaderCell
+{
+}
+
+TBODY>TR.ighg_PearGroupedRow>TD
+{
+	background: #e8efd3 url(images/ighg_GroupedRowBg.png) repeat-x;
+}
+
+
+TBODY>TR>TD.ighg_PearGroupIndentCell
+{
+	border-right: 1px solid #D8D8D8;
+}
+
+.ighg_PearGroupArea
+{
+	background-color: #F3F4F3;
+	border-bottom: 1px solid #4F7600;
+	padding: 10px;
+}
+
+.ighg_PearGroupedColumn
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnBg.png) repeat-x;
+	height: 16px;
+	padding: 3px 5px 0px 10px;
+}
+.ighg_PearGroupedColumnRightEdgeEnd
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeEndBg.gif) no-repeat;		
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+.ighg_PearGroupedColumnRightEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeBg.png) no-repeat;
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_PearGroupedColumnLeftEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnLeftEdgeBg.gif) no-repeat;
+	width: 9px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_PearGroupedBand
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-left: 1px solid #507601;
+	height: 16px;
+	padding: 3px 0px 0px 10px;
+}
+.ighg_PearGroupedBandRightEdge
+{		
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-right: 1px solid #507601;
+	width: 10px;
+	height: 16px;
+	padding: 3px 0px 0px 0px;
+}
+
+.ighg_PearColumnGroupingTopDragIndicator
+{
+	background-image:url(images/ighg_TopDragIndicator.gif);
+	background-repeat: no-repeat;
+	width:5px; 
+	height:3px;
+	z-index: 100;
+}
+
+.ighg_PearColumnGroupingMiddleDragIndicator
+{
+      background-image:url(images/ighg_MiddleDragIndicator.gif);
+      background-repeat: repeat-y;
+      background-position: center;
+      width:3px; 
+}
+
+.ighg_PearColumnGroupingBottomDragIndicator
+{
+      background-image:url(images/ighg_BottomDragIndicator.gif);
+      background-repeat: no-repeat;
+      width:5px; 
+      height:3px;
+      position: absolute;
+      z-index: 100;   
+}
+/* END -- GroupBy CSS Classes */
+
+@media print{.ighg_PearControl, .ighg_PearControl div{width:auto !important; height:auto !important; overflow: visible !important;}}

@@ -1,0 +1,151 @@
+.ig_AppletiniControl
+{
+	font-size:xx-small;
+	font-family: verdana;
+	color:Black;
+}
+
+
+.ig_AppletiniItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_AppletiniButton
+{
+	cursor:hand;
+}
+
+
+.ig_AppletiniButtonHover
+{
+}
+
+
+.ig_AppletiniButtonPressed
+{
+}
+
+
+.ig_AppletiniButtonDisabled
+{
+}
+
+
+.ig_AppletiniHover
+{
+}
+
+
+.ig_AppletiniSelected
+{
+}
+
+
+.ig_AppletiniDisabled
+{
+}
+
+
+.ig_AppletiniHeader
+{
+}
+
+
+.ig_AppletiniFooter
+{
+}
+
+
+.ig_AppletiniEditWithButtons
+{
+}
+
+
+.ig_AppletiniEdit
+{
+}
+
+
+.ig_AppletiniEditInContainer
+{
+}
+
+
+.ig_AppletiniAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_AppletiniDropDown
+{
+}
+
+
+.ig_AppletiniEditSelected
+{
+}
+
+
+.ms-WPBody .ig_AppletiniControl TD
+{
+	border-bottom:none;
+	background-color:transparent;
+	font-size:xx-small;
+}
+.ms-WPBody .ig_AppletiniControl TD
+{
+	background-color:inherit;
+	font:inherit;
+}
+.ms-WPBody .ig_AppletiniControl TABLE
+{
+	font-size:xx-small;
+	border-collapse:separate;
+}
+.ms-WPBody .ig_AppletiniControl TABLE
+{
+	font:inherit;
+}
+.ms-WPBody .igdw_AppletiniControl TD
+{
+	background-color:white;
+}
+.ms-WPBody .igmc_AppletiniControl TD
+{
+	border:none;
+	background-color:transparent;
+	font-size:xx-small;
+}
+.ms-WPBody .igmc_AppletiniControl TD
+{
+	border:inherit;
+	background-color:inherit;
+	font:inherit;
+}
+.ms-WPBody .igmc_AppletiniControl TABLE
+{
+	font-size:xx-small;
+}
+.ms-WPBody .igmc_AppletiniControl TABLE
+{
+	font:inherit;
+}
+.ms-WPBody .igte_AppletiniEditWithButtons TD
+{
+	border-bottom:none;
+	background-color:transparent;
+	font-size:1px;
+}
+.ms-WPBody .igte_AppletiniEditWithButtons TABLE
+{
+	font-size:1px;
+}

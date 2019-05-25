@@ -1,0 +1,229 @@
+.igeb_CaribbeanControl
+{
+    background-color: transparent;
+    color: #000000;
+    font-size: xx-small;
+    font-family: Segoe UI, Verdana, Helvetica, sans-serif;
+    overflow-x: hidden;
+    border: solid 1px #3A74D7;
+    border-top-width: 0px;
+	
+	/* IE6 fix to remove control's scroll bar */
+	_overflow:hidden!important;
+}
+
+.igeb_CaribbeanGroupLink
+{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+    /* Used to give padding to group icons */
+    padding-left:6px
+}
+
+.igeb_CaribbeanHolder
+{
+}
+
+.igeb_ItemImage
+{
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.igeb_CaribbeanGroup
+{
+    display: block;
+    height: 30px;
+    vertical-align: middle;
+    overflow: hidden;
+    line-height: 30px;
+    background-repeat: repeat-x;
+    background-image: url(images/igeb_GroupBg.png);
+    color: #333333;
+}
+
+.igeb_CaribbeanGroup a:visited
+{
+    color: #333333;
+}
+
+.igeb_CaribbeanGroup a
+{
+    color: #333333;
+}
+
+
+.igeb_CaribbeanGroupHover
+{
+    background-position: 0px -30px;
+    background-repeat: repeat-x;
+    background-image: url(images/igeb_GroupBg.png);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.igeb_CaribbeanGroupHover a:visited
+{
+    color: #FFFFFF;
+}
+
+
+.igeb_CaribbeanGroupHover a
+{
+    color: #FFFFFF;
+}
+
+.igeb_CaribbeanGroupLabel
+{
+    margin-left: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-family: Segoe UI, Verdana, Sans-Serif;
+    text-decoration: none;
+}
+
+.igeb_CaribbeanItemLink
+{
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.igeb_CaribbeanGroupSelected
+{
+    background-position: 0px -30px;
+    background-repeat: repeat-x;
+    background-image: url(images/igeb_GroupBg.png);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.igeb_CaribbeanGroupSelected a:visited
+{
+    color: #FFFFFF;
+}
+
+.igeb_CaribbeanGroupSelected a
+{
+    color: #FFFFFF;
+}
+
+.igeb_CaribbeanGroupActive
+{
+    background-position: 0px -30px;
+    background-repeat: repeat-x;
+    background-image: url(images/igeb_GroupBg.png);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.igeb_CaribbeanGroupActive a:visited
+{
+    color: #FFFFFF;
+}
+
+.igeb_CaribbeanGroupActive a
+{
+    color: #FFFFFF;
+}
+
+.igeb_CaribbeanGroupDisabled
+{
+    background-position: 0px -60px;
+    background-repeat: repeat-x;
+    background-image: url(images/igeb_GroupBg.png);
+    color: gray;
+}
+
+.igeb_CaribbeanItem
+{
+    background-color: #FFFFFF;
+    line-height: 22px;
+}
+
+    /* IE 7 fix to icon bad alignment*/
+    .igeb_CaribbeanItem  ,.igeb_CaribbeanItemActive ,.igeb_CaribbeanItemSelected 
+    {
+       min-height:30px;
+       
+       /* IE6 specific fix */
+       _height:30px;
+    }
+
+.igeb_CaribbeanItemLabel
+{
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+}
+
+.igeb_CaribbeanGroupExpanderImage
+{
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.igeb_CaribbeanItemImage
+{
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+
+.igeb_CaribbeanItemActive
+{
+    background-color: #79C8F2;
+}
+
+.igeb_CaribbeanItemHover
+{
+    background-color: #79C8F2;
+}
+.igeb_CaribbeanItemParent
+{
+    background-image: url(images/igeb_Bullet.png);
+    background-repeat: no-repeat;
+}
+.igeb_CaribbeanItemSelected
+{
+    background-color: #79C8F2;
+}
+
+.igeb_CaribbeanItemDisabled
+{
+    
+}
+    /* IE 7 Disabled item fix */
+
+    .igeb_CaribbeanItemDisabled a:visited, .igeb_CaribbeanItemDisabled a
+    {
+        color: Gray;
+    }
+    
+.igeb_CaribbeanGroupContents
+{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.igeb_CaribbeanItemContents
+{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
